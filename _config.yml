@@ -20,3 +20,7 @@ links:
     external:     true
 highlighter:      rouge
 permalink:        pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
