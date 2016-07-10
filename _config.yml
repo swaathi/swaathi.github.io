@@ -9,14 +9,10 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
     url:          /about
+  - name:         Open Source
+    url:          /opensource
   - name:         Blog
     url:          https://blog.skcript.com
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/swaathi
-    external:     true
-  - name:         Twitter
-    url:          http://twiiter.com/imswaathik
     external:     true
 highlighter:      rouge
 permalink:        pretty

@@ -327,14 +327,13 @@ code {
   font-size: 13px;
   color: #eee;
   background: #39382e;
-  padding: 2px 4px 3px;
+  padding: 15px 10px 15px 10px;
   border-radius: 2px;
   line-height: 1.3em;
-  display: inline-block;
+  display: block;
   vertical-align: baseline;
   zoom: 1;
-  *display: inline;
-  *vertical-align: auto; }
+  overflow: hidden; }
 
 img {
   max-width: 100%; }

@@ -1,7 +1,7 @@
 <div class="block">
   {% for link in site.links %}
     <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
-       class="main" 
+       class="main"
        href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
        {{ link.name }}
      </a>
