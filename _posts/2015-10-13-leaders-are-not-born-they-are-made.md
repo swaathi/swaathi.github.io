@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Leaders Are Not Born, They Are Made
-date: 2015-12-13 6:00:00 +5:30 GMT
+date: 2015-10-13 6:00:00 +5:30 GMT
 share: y
 ---
 

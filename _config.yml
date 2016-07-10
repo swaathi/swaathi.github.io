@@ -14,7 +14,7 @@ links:
     url:          /about
   - name:         Open Source
     url:          /opensource
-  - name:         Blog
+  - name:         Medium
     url:          https://blog.skcript.com
     external:     true
 highlighter:      rouge
