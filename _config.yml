@@ -5,7 +5,7 @@ url:              https://swaathi.github.io
 signoff:          Swaathi Kakarla
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # 855919697845922
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+google_analytics: UA-80560343-1
 twitter: imswaathik
 github: swaathi
 
