@@ -1,12 +1,14 @@
 ---
 layout: page
 title: About
+share: y
 ---
+<!-- ![image-title-here](/path/to/image.jpg){:class="img-responsive"} -->
 
-A curious human being who loves to code, read, and wonder about the universe.
-Tweet to me at [@imswaathik](http://twitter.com/imswaathik) and read my code on [GitHub](http://github.com/swaathi).
+{: .a-c}
+Empathetic human being who loves to code, read, and wonder about the universe.
+Living the dream at [Skcript](https://www.skcript.com) where we build
+[SHRINK](https://www.skcript.com/shrink) and [Allt](https://allt.in).
 
-I'm currently living my dream at [Skcript](https://skcript.com) where we build
-[SHRINK](https://skcript.com/shrink) and [Allt](https://skcript.come/Allt).
-
+{: .a-c}
 Namaste. 🙏

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Source
+share: y
 ---
 
 [Redmon](https://github.com/swaathi/redmon) - Quick and easy tool to monitor your Redis keys.
