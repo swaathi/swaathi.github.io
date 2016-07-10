@@ -18,7 +18,7 @@ home, all of us pour the remaining water in our bottles into a large pot. The ne
 day we simply use this reserve water for the plants! So simple, but you won't believe
 the amount of water we save.
 
-This overly cautious mindset got me piqued the interest of [Chaaipani](http://chaaipani.com/), a wonderful blog by the wonderful [Shruti Chaturvedi](https://twitter.com/adhicutting).
+This overly cautious mindset piqued the interest of [Chaaipani](http://chaaipani.com/), a wonderful blog by the wonderful [Shruti Chaturvedi](https://twitter.com/adhicutting).
 
 [Read on](http://chaaipani.com/2016/07/04/save-water-neer-skcript/), I hope you like it!
 
