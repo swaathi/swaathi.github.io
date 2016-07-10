@@ -3,6 +3,7 @@ layout: post
 title: The “no bullshit” guide to start coding
 date: 2015-09-16 15:00:00 +5:30 GMT
 share: y
+img-header: "https://s25.postimg.org/e995ify33/macog.png"
 ---
 
 I recently [gave a talk](https://plus.google.com/events/cbsaitr12fq38b095bgpdka16ns?utm_content=buffer64216&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) to some of the amazing women geeks at Indore, based on this short and simple guide I use to direct the new team members at [Skcript](https://www.skcript.com).
