@@ -258,11 +258,7 @@ section.post {
   section.post iframe {
     width: 100%; }
   section.post iframe, section.post img {
-    padding: 0;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    padding: 0; }
 
 section.post, section > p {
   font-size: 14px;

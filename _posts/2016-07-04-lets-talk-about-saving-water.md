@@ -3,6 +3,7 @@ layout: post
 title: Saving water got me some Chaaipani love
 date: 2016-07-04 21:30:00 +5:30 GMT
 share: y
+img-header: "https://s25.postimg.org/c24wuissv/IMG_4525.jpg"
 ---
 
 I've always been ridiculously OCD about saving water. I hate the drip-drip sound

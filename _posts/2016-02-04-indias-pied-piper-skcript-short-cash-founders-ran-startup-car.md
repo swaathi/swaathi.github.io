@@ -3,6 +3,7 @@ layout: post
 title: Our first cover on TechInAsia
 date: 2016-02-06 11:00:00 +5:30 GMT
 share: y
+img-header: "https://cdn.techinasia.com/wp-content/uploads/2016/02/Skcript-Team-Picture-720x479.jpg"
 ---
 
 The media seems to be loving us this month! Here's our first ever cover of the
@@ -15,5 +16,5 @@ through everything. So don't every feel like you can't do something – seriousl
 [Read on](https://www.techinasia.com/indias-pied-piper-skcript-short-cash-founders-ran-startup-car-profile), hope you like it!
 
 <a href="https://www.techinasia.com/indias-pied-piper-skcript-short-cash-founders-ran-startup-car-profile" target="_blank">
-![TechInAsia](http://joshuakev.in/wp-content/uploads/2012/08/Tech-in-Asia_logo_big1.png){:class="img-responsive"}
+![TechInAsia](https://s25.postimg.org/k8wwm3ivj/tia1.png){:class="img-responsive"}
 </a>

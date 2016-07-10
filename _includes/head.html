@@ -26,3 +26,15 @@
   <meta content="{{ site.description }}" property='og:description' />
   <meta content="blog" property="og:type" />
 {% endif %}
+
+{% if page.img-header %}
+<style>
+  .img-header {
+    background-image: url("{{ page.img-header }}");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0px 0px 0px;
+    height: 30vh;
+  }
+</style>
+{% endif %}
