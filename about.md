@@ -10,4 +10,4 @@ I'm currently living my dream at [Skcript](https://skcript.com) where we build
 
 Tweet to me at [@imswaathik](http://twitter.com/imswaathik) and read my code on [GitHub](http://github.com/swaathi).
 
-Namaste. ♥
+Namaste. 🙏
