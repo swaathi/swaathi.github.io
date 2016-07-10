@@ -15,8 +15,8 @@ links:
   - name:         GitHub
     url:          http://github.com/swaathi
     external:     true
+  - name:         Twitter
+    url:          http://twiiter.com/imswaathik
+    external:     true
 highlighter:      rouge
 permalink:        pretty
-redcarpet:
-  extensions:
-    - smart
