@@ -1,0 +1,23 @@
+title:            Swaathi Kakarla
+description:      Passionately curious human being
+url:              https://swaathi.github.io
+signoff:          Swaathi Kakarla
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   855919697845922
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          https://blog.skcript.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/swaathi
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
