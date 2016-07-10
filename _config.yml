@@ -17,7 +17,6 @@ links:
     external:     true
 highlighter:      rouge
 permalink:        pretty
-markdown:         redcarpet
 redcarpet:
   extensions:
     - smart
