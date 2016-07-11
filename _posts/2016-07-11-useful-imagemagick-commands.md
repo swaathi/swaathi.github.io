@@ -81,7 +81,7 @@ convert -define png:size=513x294 a.png \
 -flatten a_thumb.png
 ```
 
-Define the size of the PNG you're converting in the **png:size=wxh** block. Where
+Define the size of the PNG you're converting in the **png:size=wxh** block. Here, 
 **w** is the width and **h** is the height of the image. In the **-thumbnail**
 block, define the resultant thumbnail dimensions.
 
