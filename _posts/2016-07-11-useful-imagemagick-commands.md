@@ -35,7 +35,7 @@ You can even combine images of different types (like a PNG and a JPG)!
 convert a.png -resize 100x100 a_100.png
 ```
 
-Easily [resize images]((http://www.imagemagick.org/Usage/resize/)) by providing
+Easily [resize images](http://www.imagemagick.org/Usage/resize/) by providing
 the width and height values. If you attempt to resize your images to a larger
 ratio, they will often loose quality and appear pixelated. Resize always seeks
 to preserve your aspect ratio even if given vales do not comply.
@@ -46,7 +46,7 @@ to preserve your aspect ratio even if given vales do not comply.
 convert a.png -blur 0x2 a_blur_2.png
 ```
 
-Add [blur effects]((http://www.imagemagick.org/Usage/blur/)) to your images
+Add [blur effects](http://www.imagemagick.org/Usage/blur/) to your images
 quickly with this. The first value controls the radius of your blur, while the
 second value controls the strength. As a quick rule of the thumb, increase the
 second value to increase the blurriness.
@@ -81,7 +81,7 @@ convert -define png:size=513x294 a.png \
 -flatten a_thumb.png
 ```
 
-Define the size of the PNG you're converting in the **png:size=wxh** block. Here, 
+Define the size of the PNG you're converting in the **png:size=wxh** block. Here,
 **w** is the width and **h** is the height of the image. In the **-thumbnail**
 block, define the resultant thumbnail dimensions.
 
