@@ -21,7 +21,7 @@ convert +append a.png b.png c.png
 This takes **a.png** and **b.png** and combines them horizontally to create **c.png**.
 For best results, make sure both the images are of same or comparable ratios.
 
-To convert the vertically,
+To combine them vertically,
 
 ```
 convert -append a.png b.png c.png
