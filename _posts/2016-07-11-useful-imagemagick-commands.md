@@ -51,6 +51,14 @@ quickly with this. The first value controls the radius of your blur, while the
 second value controls the strength. As a quick rule of the thumb, increase the
 second value to increase the blurriness.
 
+### Converting Videos to GIFs
+
+```
+convert -quiet -delay 1 a.avi a.gif
+```
+
+I’ll admit it, I’ve used this far more times that anything else here. Who doesn’t love a bit of Reddit karma?
+
 ### Making your white PNGs transparent
 
 ```
