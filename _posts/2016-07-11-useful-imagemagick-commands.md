@@ -40,7 +40,7 @@ the width and height values. If you attempt to resize your images to a larger
 ratio, they will often loose quality and appear pixelated. Resize always seeks
 to preserve your aspect ratio even if given vales do not comply.
 
-### Bluring images
+### Blurring images
 
 ```
 convert a.png -blur 0x2 a_blur_2.png
