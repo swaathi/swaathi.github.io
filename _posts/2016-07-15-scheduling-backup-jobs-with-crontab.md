@@ -25,7 +25,7 @@ crontab -e
 ```
 
 This opens up a file in which you can enter any jobs you want to execute periodically.
-Each job starts on it's own line. Generally the rule is,
+Each job starts on it's own line. The general rule is,
 
 ```
 <periodic intervals> <system command>
