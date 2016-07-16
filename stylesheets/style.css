@@ -323,7 +323,7 @@ pre, .highlighter-rouge > pre {
 pre {
   padding: 15px 10px 15px 10px !important;
   margin: 0 auto;
-  width: calc(100% - 120px);
+  /*width: calc(100% - 120px);*/
   display: block;
   background: #39382e;
 }
