@@ -312,7 +312,7 @@ section.post, section > p {
 }
 
 pre, .highlighter-rouge > pre {
-  white-space: inherit;
+  white-space: pre-line;
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
