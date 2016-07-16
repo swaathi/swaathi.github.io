@@ -48,4 +48,5 @@ Now open up your cron tab and add,
 ```
 0 */6 * * * /bin/bash -l -c '/usr/local/bin/backup perform --trigger mysql_backup'
 ```
+
 This runs your Backup job every 6 hours! Simple! And no extra gems needed.
