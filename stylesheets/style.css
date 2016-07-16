@@ -317,7 +317,7 @@ pre, .highlighter-rouge > pre {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: #39382e;
+  /**/
 }
 
 pre {
@@ -325,6 +325,7 @@ pre {
   margin: 0 auto;
   width: calc(100% - 120px);
   display: block;
+  background: #39382e;
 }
 
 code {
