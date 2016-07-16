@@ -83,10 +83,7 @@ That's it! Simple as pie.
 ### Square out your uneven images by adding white padding
 
 ```
-convert -define png:size=513x294 a.png \
--thumbnail '200x200>' -gravity center \
--crop 120x120+0+0\! -background white \
--flatten a_thumb.png
+convert -define png:size=513x294 a.png -thumbnail '200x200>' -gravity center -crop 120x120+0+0\! -background white -flatten a_thumb.png
 ```
 
 Define the size of the PNG you're converting in the **png:size=wxh** block. Here,
