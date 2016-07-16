@@ -1,6 +1,9 @@
 @media (max-width: 480px) {
-  pre, .highlighter-rouge > pre {
+  /*pre, .highlighter-rouge > pre {
     width: calc(100% - 30px);
+  }*/
+  .highlighter-rouge{
+    padding: 0 15px !important;
   }
   body {
     padding: 0 10px; }
