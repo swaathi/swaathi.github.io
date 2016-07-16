@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
-  /*pre, .highlighter-rouge > pre {
+  pre, .highlighter-rouge > pre {
     width: calc(100% - 30px);
-  }*/
+  }
   body {
     padding: 0 10px; }
     body #container ul.posts .datetime {
