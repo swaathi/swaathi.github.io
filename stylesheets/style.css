@@ -308,20 +308,25 @@ section.post, section > p {
 
 .highlight {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 pre, .highlighter-rouge > pre {
   white-space: inherit;
-  padding: 15px 10px 15px 10px !important;
-  margin: 0 auto;
-  width: calc(100% - 120px);
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #39382e;
+}
+
+pre {
+  padding: 15px 10px 15px 10px !important;
+  margin: 0 auto;
+  width: calc(100% - 120px);
   display: block;
 }
+
 code {
   font-size: 13px;
   padding: 0px 2px;
