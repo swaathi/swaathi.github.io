@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Scheduling Backup Jobs With Crontab
-date: 2016-07-16 13:30:00 +5:30 GMT
+date: 2016-07-15 13:30:00 +5:30 GMT
 share: y
 ---
 
