@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@imswaathik" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:description" content="{{ content | split:'<!--break-->' | first }}" />
+<meta name="twitter:image" content="{{ site.url }}/public/blank.png" />
+<meta name="twitter:image:alt" content="Swaathi Kakarla" />
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
