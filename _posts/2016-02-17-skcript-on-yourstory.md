@@ -9,6 +9,8 @@ Man who turned up the heat this February? We're on fire here at [Skcript](https:
 wrote a wonderful piece on data compression and how a small team from Chennai is
 tackling this huge problem. [Sindhu Kashyap](http://yourstory.com/author/sindhu-kashyap/) you are a doll! Thanks for this.
 
+<!--break-->
+
 > When they started out, the team thought building a software product would be enough for the
 enterprise customers. “But we were wrong. We then expanded our requirement to building our own server, which runs SHRINK. It’s more like how iOS and iPhone work beautifully with each other,” explains Karthik.
 

@@ -7,6 +7,8 @@ share: y
 
 When I started developing in Rails, I couldn’t add two numbers without my hands! It was my first foray into programming. So you could say I really struggled to understand the _“Rails Magic”_. How are params automagically passed? What are these instance variables that seem to crop out of nowhere? What is this helper, _cause I sure as hell could use some_! But as time passed on, I realized that a computer really isn’t magical at all, it just seems to be, and so was Rails.
 
+<!--break-->
+
 So when we expanded, a major part of my time was dedicated to help people demystify Rails magic and follow best practices. At our latest NerdChat, which we have every Wednesday, I decided to talk about a few things that used to confuse me when I started out. Turns out having the same struggles really brings people together!
 
 I hope [these slides I put together](https://drive.google.com/file/d/0B4fZI-VEy3rjUDJBc2s1Wm91clE/view) help you through your journey of demystifying Rails Magic.

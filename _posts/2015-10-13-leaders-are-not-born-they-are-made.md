@@ -7,6 +7,8 @@ share: y
 
 We’ve all heard this cliche before. But do we believe it? How many times have we not thought of an excuse to how a person is, _“Oh, they are born into money.”_ or _“Oh, they had a great education.”_? We’ve all been there with the pricking thought in the back of your mind to soothe the jealously in our hearts.
 
+<!--break-->
+
 But what is it that makes the greatest people beat to their rhythm? In my years of sitting in the comfortable back seat observing people, I’ve learned that it’s just a combination of two very small things — curiosity and a little bit of OCD. Because the truth of life is, you’ll only chase things you deeply care about. No amount of external motivation can help you achieve something you don’t want to achieve.
 
 > Because the truth of life is, you’ll only chase things you deeply care about.

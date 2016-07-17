@@ -10,6 +10,8 @@ I've always been ridiculously OCD about saving water. I hate the drip-drip sound
 of leaky taps, unnecessary usage of sprinklers in the summer, and on and on. So,
 there's a little thing we do at [Skcript](https://www.skcript.com) on this cause.
 
+<!--break-->
+
 We have a lot(!) of plants at office. From small bamboo plants on everyone's desk,
 to large Araceae palms. I absolutely love the smell of petrichor, and I treat myself
 to it almost everyday watering these plants.

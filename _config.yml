@@ -1,25 +1,36 @@
-title:            Swaathi Kakarla
-description:      Meet me, a curious human being who loves to code, read, and wonder about the universe.
-url:              https://swaathi.github.io
-# url:              http://0.0.0.0:4000
-signoff:          Swaathi Kakarla
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # 855919697845922
-google_analytics: UA-80560343-1
-twitter: imswaathik
-github: swaathi
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-links:
-  - name:         About
-    url:          /about
-  - name:         Open Source
-    url:          /opensource
-  - name:         Medium
-    url:          https://blog.skcript.com
-    external:     true
-highlighter:      rouge
-permalink:        pretty
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
+# Setup
+title:               Swaathi Kakarla
+name:                Swaathi
+tagline:             Usually about code, but not always
+description:         'Empathetic human being who loves to code, read, and wonder about the universe. Living the dream at <a href="https://www.skcript.com">Skcript</a> where we build
+<a href="https://www.skcript.com/shrink">Shrink</a> and <a href="https://allt.in">Allt</a>.'
+# url:                 https://swaathi.github.io
+url:                 http://localhost:4000
+paginate:            5
+
+github:
+  repo: https://github.com/swaathi
+
+google_analytics:
+  token: UA-80560343-1
+
+skcript:
+  main: https://www.skcript.com
+  blog: https://blog.skcript.com
+  shrink: https://www.skcript.com/shrink
+  allt: https://allt.in
+
+# About/contact
+author:
+  name:              Swaathi Kakarla
+  url:               https://twitter.com/imswaathik
+  email:             swaathi@skcript.com
+
+# Custom vars
+version:             1.0.0

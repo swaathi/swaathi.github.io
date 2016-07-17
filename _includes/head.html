@@ -1,40 +1,29 @@
-<link href='{{ site.url }}/images/fav.png' rel='shortcut icon'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-<link href='{{ site.url }}/stylesheets/style.css' rel='stylesheet' type='text/css' />
-<link href='{{ site.url }}/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
-<link href='{{ site.url }}/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
-<!-- - -->
-<script src='{{ site.url }}/javascripts/jquery.js' type='text/javascript'></script>
-<script src='{{ site.url }}/javascripts/pd.js' type='text/javascript'></script>
-<script src='{{ site.url }}/javascripts/basics.js' type='text/javascript'></script>
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<!-- - -->
-<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
-<meta content='text/html; charset=utf-8' http-equiv='content-type' />
-<meta content="{{ site.url }}/images/og.png" property="og:image" />
-<!--  -->
-<script async defer src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-{% include ga.html %}
-<!--  -->
-{% if page.date %}
-  <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
-  <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
-  <meta content="article" property="og:type" />
-{% else %}
-  <meta content='{{ site.url }}' property='og:url' />
-  <meta content="{{ site.description }}" property='og:description' />
-  <meta content="blog" property="og:type" />
-{% endif %}
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-{% if page.img-header %}
-<style>
-  .img-header {
-    background-image: url("{{ page.img-header }}");
-    background-size: cover;
-    background-position: center;
-    padding: 10px 0px 0px 0px;
-    height: 30vh;
-  }
-</style>
-{% endif %}
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{  site.url }}/public/css/poole.css">
+  <link rel="stylesheet" href="{{  site.url }}/public/css/syntax.css">
+  <link rel="stylesheet" href="{{  site.url }}/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{  site.url }}/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="{{  site.url }}/public/favicon.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>

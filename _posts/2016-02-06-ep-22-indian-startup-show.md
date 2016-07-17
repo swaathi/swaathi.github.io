@@ -9,6 +9,8 @@ February is starting to look like a great month! Thanks to [Neil Patel](https://
 me on [The Indian Startup Show](http://www.indianstartupshow.com/), a weekly podcast
 focusing on the Indian startup scene.
 
+<!--break-->
+
 In this [conversation](http://www.indianstartupshow.com/22) I talk about,
 
 * How I got started in tech and business

@@ -7,12 +7,14 @@ share: y
 
 I HATE when my code looks like a monstrosity of conditions.
 
-```
+{% highlight bash %}
 If this, do that;
 else if this + 5, do this;
 else if this - 5, do this*5;
 else don't do anything.
-```
+{% endhighlight %}
+
+<!--break-->
 
 There’s way too much logic involved and no effort to simplify it. It’s harder for someone else to understand this, let alone when you yourself look back at this later on. There’s got to be a quantified way to solve this code spaghetti!
 
@@ -28,7 +30,7 @@ Here are a few of my tricks when reducing complexity,
 
 If you have an ultra simple function that compares a condition to return a value if it matches, and another if it doesn’t. Fairly straight forward scenario.
 
-```
+{% highlight rb %}
 def pretty_time(time)
   if time
     time.strftime("%B %e, %Y")
@@ -36,16 +38,16 @@ def pretty_time(time)
     nil.to_s
   end
 end
-````
+{% endhighlight %}
 
 Sure it’s not too bad, but it can look even better if you do this,
 
-```
+{% highlight rb %}
 def pretty_time(time)
  return nil.to_s unless time
  time.strftime("%B %e, %Y")
 end
-````
+{% endhighlight %}
 
 You can bid good bye to your hanging else statements!
 
@@ -53,48 +55,48 @@ You can bid good bye to your hanging else statements!
 
 The pipe symbol, **\|\|** is a favorite among Ruby devs. You can quickly assign default values when a variable is nil.
 
-```
+{% highlight rb %}
 > nil || 6
 => 6
-````
+{% endhighlight %}
 
 But it’s not too friendly with strings.
 
-```
+{% highlight rb %}
 > "" || "six"
 => ""
-````
+{% endhighlight %}
 
 When you use this with the presence method, magic happens!
 
-```
+{% highlight rb %}
 > "".presence || "six"
 => "six"
-````
+{% endhighlight %}
 
 ### Try, Try again
 
 If I got a dollar for every time i ran into the _nil:NilClass error_, I’d be a millionaire! This made me paranoid to stick a if _obj.present?_ everywhere.
 
-```
+{% highlight rb %}
 if user.present?
   return user.name
 end
-````
+{% endhighlight %}
 
 Yuck! There’s a better way to do this, you just got to keep trying.
 
-```
+{% highlight rb %}
 user.try(:name)
-````
+{% endhighlight %}
 
 Simple! Now when your user doesn’t exists, it will fail quietly and return a nil.
 
 This works with methods too. If you have a method called fullname, try this out,
 
-```
+{% highlight rb %}
 user.try(:fullname)
-````
+{% endhighlight %}
 
 ### Send Off
 
@@ -102,7 +104,7 @@ I have this horrible habit of organizing background workers as if they were logi
 
 Since I have different tasks to be processed for each call of the worker, I pass an “identifier”. Something that tells the worker class what function to perform.
 
-```
+{% highlight rb %}
 class UserWorker
   include Sidekiq::Worker
 
@@ -116,7 +118,7 @@ class UserWorker
     end
   end
 end
-````
+{% endhighlight %}
 
 **UGLY!**
 
@@ -128,7 +130,7 @@ What is send?
 
 So from the above mess, this is how my reduced worker looks like.
 
-```
+{% highlight rb %}
 class UserWorker
   include Sidekiq::Worker
 
@@ -142,7 +144,7 @@ class UserWorker
     user.process_profile_picture(options)
   end
 end
-````
+{% endhighlight %}
 
 So much cleaner, and so much easier to extend.
 
@@ -154,37 +156,37 @@ The great things about Ruby being OOPs complaint is it’s ease of extending bas
 
 I hate doing an if condition for booleans, it just feels wrong. Something like this,
 
-```
+{% highlight rb %}
 if user.admin
   return "You are an admin"
 else
   return "You are not an admin"
 end
-````
+{% endhighlight %}
 
 I’d have to create a specific function in the User class just to handle something as simple as printing out different messages for a boolean value. Here’s a neat trick,
 
-```
+{% highlight rb %}
 class TrueClass
   def message(true_message, false_message)
     return true_message
   end
 end
-````
+{% endhighlight %}
 
-```
+{% highlight rb %}
 class FalseClass
   def message(true_message, false_message)
     return false_message
   end
 end
-````
+{% endhighlight %}
 
 
 This overrides **TrueClass** and **FalseClass** so you can do something as simple as this,
 
-```
+{% highlight rb %}
 user.admin.message("You are an admin")
-````
+{% endhighlight %}
 
 So simple! There’s so many tiny adjustments you can make with this little trick!

@@ -8,6 +8,8 @@ img-header: "https://s25.postimg.org/e995ify33/macog.png"
 
 I recently [gave a talk](https://plus.google.com/events/cbsaitr12fq38b095bgpdka16ns?utm_content=buffer64216&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer) to some of the amazing women geeks at Indore, based on this short and simple guide I use to direct the new team members at [Skcript](https://www.skcript.com).
 
+<!--break-->
+
 When we sat down to write a quick no bull-shit guide to get people started with coding, we clearly wanted a guide that will NOT allow them to touch code, unless and until they can completely visualize what they want to do. Here are some pointers from our internal getting started guide.
 
 ### Where do I start?
