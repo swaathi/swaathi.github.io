@@ -13,7 +13,9 @@ I've never been so much of a perfectionist in my life, I can however proudly say
 
 All these traits are heightened when building [Allt](https://allt.in). Finally a product that I will actually use every single day in my life. This has kept me up hours, has stolen all my waking hours thoughts, and has finally strengthened the meaning of **building something for yourself.** Of course SHRINK will always be my baby, it's what has gotten us here. But there's a sense of belonging when building [Allt](https://allt.in).
 
-So I ask you the next time you step into a new language, a new product, or a new feature at [Skcript](https://www.skcript.com), please give it your all. It is not for the company, the product, or any other superficial reason. It is for the simplest reasons of all – happiness. There's only a single question you need to answer when signing off, Will I come back to this?
+So I ask you the next time you step into a new language, a new product, or a new feature at [Skcript](https://www.skcript.com), please give it your all. It is not for the company, the product, or any other superficial reason. It is for the simplest reasons of all – happiness.
+
+> There's only a single question you need to answer when signing off, Will I come back to this?
 
 Nothing in life is ever finished, life is a constant change machine. And what better way to embody that, than to reflect this in your work? So please, in the most polite way possible, do your work with perfection. Do not leave any leaf unturned. Visit a line of code a million times before pushing it live. It's okay to obsess and give a damn, if not couple, about it.
 
