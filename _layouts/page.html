@@ -3,10 +3,15 @@ layout: default
 ---
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@imswaathik" />
-<meta name="twitter:title" content="{{ page.title }}" />
-<meta name="twitter:description" content="{{ page.tagline }}" />
+<meta name="twitter:title" content="{{ site.title }}" />
+<meta name="twitter:description" content="{{ site.tagline }}" />
 <meta name="twitter:image" content="{{ site.url }}/public/black.png" />
-<meta name="twitter:image:alt" content="{{ page.title }}" />
+<meta name="twitter:image:alt" content="{{ site.title }}" />
+
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}/public/black.png" />
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>

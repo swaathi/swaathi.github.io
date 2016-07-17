@@ -8,6 +8,11 @@ layout: default
 <meta name="twitter:image" content="{{ site.url }}/public/black.png" />
 <meta name="twitter:image:alt" content="{{ page.title }}" />
 
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}/public/black.png" />
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
