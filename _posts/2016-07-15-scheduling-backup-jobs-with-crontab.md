@@ -3,6 +3,7 @@ layout: post
 title: Scheduling Backup Jobs With Crontab
 date: 2016-07-15 13:30:00 +5:30 GMT
 share: y
+img-header: "https://cdn-images-1.medium.com/max/800/1*wLnfZpiPjgClzrAeQfEbTQ.jpeg"
 ---
 
 [Backup](http://backup.github.io/backup/v4/) is an insanely useful gem for, well
