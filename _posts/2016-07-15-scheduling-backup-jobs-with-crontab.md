@@ -15,7 +15,7 @@ and assume your Backup jobs are already set.
 
 You can also [schedule backups](http://backup.github.io/backup/v4/scheduling-backups/)
 however it requires using another gem, [Whenever](https://github.com/javan/whenever).
-I don't like to add another dependencies on my production servers. So the easiest
+I don't like to add other dependencies on my production servers. So the easiest
 way to over come that was to use Linux's built in scheduling system, [cron](https://help.ubuntu.com/community/CronHowto)!
 
 > Cron is a system daemon used to execute desired tasks (in the background) at designated times.
