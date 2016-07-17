@@ -7,7 +7,6 @@ description:         'Empathetic human being who loves to code, read, and wonder
 
 url:                 https://www.swaathi.com
 # url:                 http://localhost:4000
-enforce_ssl:         www.swaathi.com
 
 paginate:            5
 
