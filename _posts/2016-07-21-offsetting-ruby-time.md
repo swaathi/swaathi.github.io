@@ -24,9 +24,9 @@ inputting the offset.
 
 {% highlight rb %}
   t = Time.now.utc
-  => Fri, 21 Jul 2016 07:56:38 UTC +00:00
+  => Fri, 22 Jul 2016 07:56:38 UTC +00:00
   t.offset("+05:30")
-  => Fri, 21 Jul 2016 13:26:38 UTC +00:00
+  => Fri, 22 Jul 2016 13:26:38 UTC +00:00
 {% endhighlight %}
 
 
