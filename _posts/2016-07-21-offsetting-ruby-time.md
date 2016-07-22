@@ -14,7 +14,7 @@ out on the view accordingly.
 
 But, all hell breaks loose when you try to recreate this
 on the server side. Here there's no information on what user is from what timezone.
-And even if you pertain the users timezone information, surprisingly Rails doesn't
+And even if you persist the users timezone information, surprisingly Rails doesn't
 come with an out of the box solution to offseting time(s).
 
 <!--break-->
