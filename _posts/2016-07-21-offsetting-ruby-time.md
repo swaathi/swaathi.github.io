@@ -17,6 +17,8 @@ on the server side. Here there's no information on what user is from what timezo
 And even if you pertain the users timezone information, surprisingly Rails doesn't
 come with an out of the box solution to offseting time(s).
 
+<!--break-->
+
 Here's a super simple way to convert a UTC time to a zone of your choice, by just
 inputting the offset.
 
