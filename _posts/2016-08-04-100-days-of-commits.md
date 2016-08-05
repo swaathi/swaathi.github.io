@@ -5,7 +5,7 @@ date: 2016-08-04 15:30:00 +5:30 GMT
 share: y
 ---
 
-Of all the innovative ideas to bring more people into open source, this has got to take the prize. [#100DaysOfCommits](https://100daysofcommits.github.io/) is a social movement to promote open source development. All you need to do is commit (on [Github](https://github.com)) to an open source project of your choice for the next 100 days! 1 commit (or more, common challenge yourself!) per day.
+Of all the innovative ideas to bring more people into open source, this has got to take the prize. [#100DaysOfCommits](https://100daysofcommits.github.io/) is a social movement to promote open source development. All you need to do is commit on [Github](https://github.com), to an open source project of your choice for the next 100 days! 1 commit (or more, common challenge yourself!) per day.
 
 <!--break-->
 
