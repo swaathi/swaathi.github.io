@@ -18,8 +18,8 @@ We are super excited at Skcript to join this movement. Almost everyone here has 
 > #100DaysOfCommits starts on August 1st, 2016 and ends November 9th, 2016.
 
 For today here are the repos our engineers are contributing to,
-- https://github.com/rails/rails
-- https://github.com/skcript/GDGChennai
-- https://github.com/varun-raj/medium-editor-autolist
+- [rails/rails](https://github.com/rails/rails)
+- [skcript/GDGChennai](https://github.com/skcript/GDGChennai)
+- [varun-raj/medium-editor-autolist](https://github.com/varun-raj/medium-editor-autolist)
 
 Stay tuned! We'll be posting images of the craziness that comes with code here soon!
