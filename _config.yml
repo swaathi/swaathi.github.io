@@ -6,7 +6,7 @@ description:         'Empathetic human being who loves to code, read, and wonder
 <a href="https://www.skcript.com/shrink">Shrink</a> and <a href="https://allt.in">Allt</a>.'
 
 enforce_ssl:         true
-url:                 www.swaathi.com
+url:                 https://www.swaathi.com
 # url:                 localhost:4000
 
 paginate:            5
