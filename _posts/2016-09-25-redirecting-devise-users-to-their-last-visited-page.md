@@ -38,7 +38,7 @@ Here's what you can do to achieve this,
     end
 
   end
-{% end highlight %}
+{% endhighlight %}
 
 Any location a user visits in your app, has to go through your `ApplicationController`. So it's a good idea to add a single `before_action` here to persist it. I like to filter out the paths I persist, and those usually include Devise default paths. Since I don't want my user to be in an endless loop after he signs up/in. (User signs up, session persists and he's redirected back to sign up, not good!) Also, I block out XHR requests.
 
@@ -49,7 +49,7 @@ Add a list of ignored paths to your `application.rb`. You can even create an ini
   # Devise routes need to always be here, so that a redirect loop does not occur
   # after signing in
   config.ignored_paths = %W(/users/sign_in /users/sign_up /users/password /users/sign_out /users/confirm_password)
-{% end highlight %}
+{% endhighlight %}
 
 ### 2. Redirect the user if the session variable exists.
 
@@ -63,7 +63,7 @@ Add this to your ApplicationController too,
       root_path
     end
   end
-{% end highlight %}
+{% endhighlight %}
 
 The `after_sign_in_path_for` method is automatically called by Devise once the user logs in. it's a simple check to see if the session variable exists, redirect the user to his last location, or default to `root_path`.
 
