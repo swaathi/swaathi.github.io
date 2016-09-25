@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redirecting Devise Users To Their Last Visited Page
-date: 2016-09-25 8:30:00 +5:30 GMT
+date: 2016-09-24 8:30:00 +5:30 GMT
 share: y
 ---
 
