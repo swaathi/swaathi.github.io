@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
+
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@imswaathik" />
   <meta name="twitter:title" content="{{ site.title }}" />
@@ -13,13 +13,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}/public/black.png" />
+
   <body>
-
     {% include sidebar.html %}
-
     <div class="content container">
       {{ content }}
     </div>
-
   </body>
 </html>
