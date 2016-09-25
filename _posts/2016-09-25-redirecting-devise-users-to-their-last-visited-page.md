@@ -17,7 +17,7 @@ Enter session.
 
 > A session is defined as a series of related browser requests that come from the same client during a certain time period. - [Google](https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=what+is+a+session+in+a+web+application) (Actually [Oracle](https://docs.oracle.com/cd/E13222_01/wls/docs81/webapp/sessions.html))
 
-And guess what? The session remains the same for a user who is not logged in, to when he logs in. Aaaand guess what else? You can persist data on your session!
+And guess what? The session remains the same for a user who is not logged in, to when they log in. Aaaand guess what else? You can persist data on your session!
 
 Here's what you can do to achieve this,
 
