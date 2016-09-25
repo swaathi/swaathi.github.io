@@ -5,6 +5,7 @@ tagline:             Usually about code, but not always
 description:         'Empathetic human being who loves to code, read, and wonder about the universe. Living the dream at <a href="https://www.skcript.com">Skcript</a> where we build
 <a href="https://www.skcript.com/shrink">Shrink</a> and <a href="https://allt.in">Allt</a>.'
 
+enforce_ssl:         true
 url:                 www.swaathi.com
 # url:                 localhost:4000
 
