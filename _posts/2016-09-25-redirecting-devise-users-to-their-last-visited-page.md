@@ -5,11 +5,13 @@ date: 2016-09-25 08:30:00 +5:30 GMT
 share: y
 ---
 
-It's always a nice gesture to redirect your users to the page they were last visiting. Imagine a scenario where your app sends out mailers with a link to a page that requires a login to see. You can't assume that your user would always be logged in, so when he clicks on this, he'd be redirected to the sign in page. He then signs in and... he's back in the homepage. So he leaves. Retention 0, distrust 1.
+It's always a nice gesture to redirect your users to the page they were last visiting. Imagine a scenario where your app sends out mailers with a link to a page that requires a login to see. You can't assume that your user would always be logged in, so when clicking on this, he/she would be redirected to the sign in page. They then sign in and... they're back on the homepage. So they leave. **Retention 0, distrust 1.**
 
 <!--break-->
 
-What should happen in this scenario is, the app should automatically redirect the user to the page he was supposed to look at before he got whisked away. There's a lot of ways to do this, and a few ways even recommend persisting the user location to your database. YUCK. Why would you want to make a database call for every page the user visits? What would happen when your app scales? Or what would happen when your user isn't even in the system, where would you persist that data, so that when he does eventually sign up, you can provide a seamless transition? Persisting something as volatile as user location is not a good idea.
+What should happen in this scenario is, the app should automatically redirect the user to the page he/she was supposed to look at before getting whisked away. There's a lot of ways to do this, and a few ways even recommend persisting the user location to your database. **YUCK**.
+
+Why would you want to make a database call for every page the user visits? What would happen when your app scales? Or what would happen when your user isn't even in the system, where would you persist that data, so that when he does eventually sign up, you can provide a seamless transition? Persisting something as volatile as user location is not a good idea.
 
 Enter session.
 
