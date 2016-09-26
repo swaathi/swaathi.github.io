@@ -1,3 +1,7 @@
+figure.highlight {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #999; } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
