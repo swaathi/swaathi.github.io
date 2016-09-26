@@ -9,11 +9,11 @@ I was explaining to a colleague of mine how he can host his [static website on G
 
 <!--break-->
 
-It's not a great website, it's UI is neat and clean, it's content is friendly. What I loved the most was how built the page so that ANYONE could understand. Though GitHub is primarily a developer driven ecosystem, they want to cater for everyone,
+It's not an amazing website but the UI is neat and clean, and the content is friendly. What I loved the most was how built the page so that ANYONE could understand. Though GitHub is primarily a developer driven ecosystem, they want to cater for everyone,
 
 > Matthew McCullough, a trainer at GitHub, explains that Git, like other version control systems, manages and stores revisions of projects. Although it’s mostly used for code, McCullough says Git could be used to manage any other type of file, such as Word documents or Final Cut projects. Think of it as a filing system for every draft of a document. - TechCrunch, "[What exactly is GitHub anyway](https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/)?"
 
-This little piece of HTML really represented what their reason is for me,
+This little piece of HTML really represented what their goal is for me,
 
 ![GitHubPages](https://s3-ap-southeast-1.amazonaws.com/blob.blankcursor.com/uploads/medium/976/dfdccb8e-54a5-404e-a55a-1f1d35e3c508.png){:class="img-responsive"}
 
