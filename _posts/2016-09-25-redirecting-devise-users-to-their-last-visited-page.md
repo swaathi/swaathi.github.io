@@ -34,7 +34,7 @@ Here's what you can do to achieve this,
 
     private
     def persist_last_visited_path
-      unless Rails.configuration.ignored_paths.include?(request.path) && request.xhr?
+      unless Rails.configuration.ignored_paths.include?(request.path) || request.xhr?
         session[:last_visited_path] = request.path
       end
     end
