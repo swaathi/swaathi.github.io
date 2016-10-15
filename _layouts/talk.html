@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@imswaathik" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:description" content="{{ page.content | markdownify | strip_html | truncatewords: 50 }}" />
+<meta name="twitter:image" content="{{ site.url }}/public/black.png" />
+<meta name="twitter:image:alt" content="{{ page.title }}" />
+
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}/public/black.png" />
+
+<div class="post">
+  <h1 class="post-title">{{ talk.title }}</h1>
+  <span class="post-date">{{ talk.date | date_to_string }}</span>
+  {{ content }}
+</div>
