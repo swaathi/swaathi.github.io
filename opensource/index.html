@@ -1,0 +1,22 @@
+---
+layout: default
+title: Opensource
+---
+
+<div class="posts">
+  {% for opensource in site.data.opensource %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ opensource.link }}" target="_blank">
+          {{ opensource.name }}
+        </a>
+      </h1>
+
+      <span class="post-date">{{ opensource.language }}</span>
+      <p>
+        {{ opensource.description }}
+      </p>
+      {{ opensource.gist }}
+    </div>
+  {% endfor %}
+</div>

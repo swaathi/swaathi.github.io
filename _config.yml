@@ -37,3 +37,5 @@ permalink:           pretty
 
 # Custom vars
 version:             1.0.0
+
+gems: [jekyll-gist, jekyll-paginate]

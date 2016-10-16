@@ -3,11 +3,11 @@
     <div class="sidebar-about">
       <center>
         <a href="/">
-          <img src="https://swaathi.com/public/white.png" class="img-responsive" />
+          <img src="https://swaathi.com/public/white.png" class="img-responsive" alt="Swaathi Kakarla - Logo" />
         </a>
       </center>
       <p class="lead">
-        <a href="/about">Swaathi Kakarla</a>
+        <a href="/">Swaathi Kakarla</a>
       </p>
       <p class="lead">
         Empathetic <a href="/about">human being</a> who loves to
@@ -15,26 +15,16 @@
         <a href="{{ site.skcript.blog }}">read</a>, and
         <a href="{{ site.author.twitter }}">wonder</a> about the universe.
       </p>
-      <p class="lead">
-        Living the dream at <a href="https://www.skcript.com">Skcript</a> where we build
-        <a href="https://www.skcript.com/shrink">Shrink</a> and <a href="https://allt.in">Allt</a>.
-      </p>
     </div>
 
-    <!-- <nav class="sidebar-nav">
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </nav> -->
+    <nav class="sidebar-nav">
+      <hr />
+      <a class="sidebar-nav-item" href="/about/">About Me</a>
+      <a class="sidebar-nav-item" href="/talks/">My Talks</a>
+      <a class="sidebar-nav-item" href="/opensource/">Opensource</a>
+    </nav>
+    <p>
+      CTO,&nbsp;<a href="{{ site.skcript.main }}">Skcript</a>
+    </p>
   </div>
 </div>

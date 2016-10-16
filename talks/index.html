@@ -3,4 +3,20 @@ layout: default
 title: Talks
 ---
 
-<iframe src="https://docs.google.com/presentation/d/15cQez-ziRnJfBDifbguhOECaPlEGoGAjbEoE26BrFyI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="900" height="588" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="posts">
+  {% for talk in site.data.talks %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="/talks/{{ talk.path }}" target="_blank">
+          {{ talk.name }}
+        </a>
+      </h1>
+
+      <span class="post-date">{{ talk.date | date_to_string }} / <a href="{{ talk.event.link }}">{{ talk.event.name }}</a></span>
+      <p>
+        {{ talk.description }}
+      </p>
+      <a href="/talks/{{ talk.path }}" target="_blank">View Presentation → </a>
+    </div>
+  {% endfor %}
+</div>
