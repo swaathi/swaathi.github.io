@@ -16,7 +16,10 @@ title: Talks
       <p>
         {{ talk.description }}
       </p>
-      <a href="/talks/{{ talk.path }}" target="_blank">View Presentation → </a>
+      <div class="pagination">
+        <a class="pagination-item older" href="/talks/{{ talk.path }}">Download</a>
+        <a class="pagination-item newer" href="{{ talk.link }}" target="_blank">View</a>
+      </div>
     </div>
   {% endfor %}
 </div>
