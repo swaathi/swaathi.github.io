@@ -18,7 +18,11 @@ title: Talks
       </p>
       <div class="pagination">
         <a class="pagination-item older" href="/talks/{{ talk.path }}">Download</a>
-        <a class="pagination-item newer" href="{{ talk.link }}" target="_blank">View</a>
+        {% if talk.link != blank %}
+          <a class="pagination-item newer" href="{{ talk.link }}" target="_blank">View</a>
+        {% else %}
+          <a class="pagination-item newer" href="/">View</a>
+        {% endif %}
       </div>
     </div>
   {% endfor %}

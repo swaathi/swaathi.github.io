@@ -6,3 +6,19 @@
   event:
     name: "Chennai Ruby Meetup"
     link: "https://www.meetup.com/chennai-ruby/events/234497214/"
+- name: "Building Pied Piper For Real"
+  path: "building-pied-piper-for-real.pdf"
+  link: ""
+  date: 2016-02-25 06:00:00 +5:30 GMT
+  description: "Invited to showcase SHRINK, the enterprise compression server a small team built! Also touch upon team dynamics and how to building motivated teams."
+  event:
+    name: "Geeknight by Thoughtworks"
+    link: "https://twchennai.github.io/geeknight/edition-28.html"
+- name: "API's Rule The World"
+  path: "apis-rule-the-world.pdf"
+  link: ""
+  date: 2016-02-24 06:00:00 +5:30 GMT
+  description: "How did we scale SHRINK's API to server thousands of requests with an on-premise server? I speak about building modular, scalable and secure API’s. Also introduce efficient API design, key concerns when scaling, and guide on how to run an API driven business model."
+  event:
+    name: "eWIT - Women In Tech"
+    link: "http://www.ewit.co.in/downloads/eWIT-invites-Feb242016.pdf"
