@@ -6,6 +6,14 @@
   event:
     name: "Chennai Ruby Meetup"
     link: "https://www.meetup.com/chennai-ruby/events/234497214/"
+- name: "Ratelimiting"
+  path: "ratelimits.pdf"
+  link: ""
+  date: 2016-06-25 06:00:00 +5:30 GMT
+  description: "General overview on how ratelimiting can help you be prepared when the shoot hits the roof! Also demoed 3 code snippets that embody 3 important places you can ratelimit and save that day."
+  event:
+    name: "Nerdchat at Skcript"
+    link: "https://twitter.com/ImKarthikK/status/749198308715868160"
 - name: "Building Pied Piper For Real"
   path: "building-pied-piper-for-real.pdf"
   link: ""
