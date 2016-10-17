@@ -12,11 +12,11 @@ I'm currently trying to make a dent in the universe from the "spicy" side of the
 
 Tweet to me [@{{ site.twitter.username }}]({{ site.author.twitter }}).
 
-# Values
-
+<!-- # Values -->
+<!--
 <dl>
   {% for lesson in site.data.lessons %}
     <dt>{{ lesson.attribute }}</dt>
     <dd>{{ lesson.value }}</dd>
   {% endfor %}
-</dl>
+</dl> -->
