@@ -8,7 +8,7 @@ I'm a 23 year old business owner, I've been running [Skcript]({{ site.skcript.ma
 
 I fell in love with code when I was 15 years old, and it still hasn't changed. Currently Ruby and Python are my addictions. I dabble a bit in server management, machine learning, and anything that keeps me curious. Also love to speak about code, tech and startups.
 
-I'm currently trying to make a dent in the universe from the "spicy" side of the equator, so Namaste. 🙏
+Perpetually trying to make a dent in the universe from the "spicy" side of the equator, so Namaste. 🙏
 
 Tweet to me [@{{ site.twitter.username }}]({{ site.author.twitter }}).
 
