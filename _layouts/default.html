@@ -15,6 +15,13 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}/public/black.png" />
 
+  <script>
+    var host = "swaathi.com";
+    if (window.location.host == host && window.location.protocol != "https:") {
+      window.location.protocol = "https:"
+    }
+  </script>
+
   <body>
     {% include sidebar.html %}
     <div class="content container">
