@@ -2,7 +2,6 @@
 layout: page
 title: About
 ---
-Hey! Thanks for stopping by.
 
 I'm a 23 year old business owner, I've been running [Skcript]({{ site.skcript.main }}) for about {{ site.time | date: '%Y' | minus:2013 }} years now. I work with 4 other [amazing people]({{ site.skcript.people }}) everyday to build our compression server for the enterprise, [SHRINK]({{ site.skcript.shrink }}) and our work management tool, [Allt]({{ site.skcript.allt }}).
 
@@ -19,6 +18,10 @@ Tweet to me [@{{ site.twitter.username }}]({{ site.author.twitter }}).
     <dd>{{ lesson.value }}</dd>
   {% endfor %}
 </dl> -->
+
+<center>
+  <img src="/public/smile.png" class="img" alt="smile" />
+</center>
 
 # Languages and Frameworks
 
