@@ -7,6 +7,8 @@ share: y
 
 Welcome to November everybody! Down here in Chennai, we prepare for the winter by switching up our cute summer clothes with warm woolen blankets. Yeah right! It's summer all year round, all we know is the heat.
 
+<!--break-->
+
 Speaking about heat, the Skcript team really raised the temperature at TiECON Chennai at ITC Grand Chola for two entire days. We organized an event for attendees to get a personal, one-on-one 15 minute session with mentors. These mentors came from all sorts of backgrounds, from bootstrapped entrepreneurs reigning empires to self made venture capitalists. We even built our own booking platform to help us out, and [wrote about the experience](https://blog.skcript.com/building-polyclinic-a-booking-platform-for-tiecon-2016-74020535cea3) too! (Someone please pull away our engineers from their systems, we build way too many platforms for our own good.)
 
 We pushed a lot of nifty feature updates to UnderstandBetter too! Memories got a huge facelift, you can now tag a memory to a person, associate a weblink to it, and also link a Tweet or Facebook post directly.
