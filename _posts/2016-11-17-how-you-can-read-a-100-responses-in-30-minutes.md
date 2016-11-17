@@ -29,7 +29,7 @@ Here's how it looks like in action,
 
 Humans are lazy sometimes. In a few cases, we found that summaries might not be the best way to derive context. Keyword extraction saves the day in these places. An overview of the keywords used can be a quicker way to understand the overall emotion of the response.
 
-<img src="/public/posts/2017-11-07/keyword_extraction.jpg" class="img" alt="Keyword Extraction with UnderstandEngine" />
+<img src="/public/posts/2017-11-17/keyword_extraction.jpg" class="img" alt="Keyword Extraction with UnderstandEngine" />
 
 ### Polarity and Subjectivity Analysis
 
