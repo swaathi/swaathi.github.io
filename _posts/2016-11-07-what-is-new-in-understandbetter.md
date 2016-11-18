@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's new in UnderstandBetter?
-date: 2017-11-07 10:30:00 +5:30 GMT
+date: 2016-11-07 10:30:00 +5:30 GMT
 share: y
 ---
 
@@ -13,17 +13,17 @@ Speaking about heat, the Skcript team really raised the temperature at TiECON Ch
 
 We pushed a lot of nifty feature updates to [UnderstandBetter](https://understandbetter.co) too! Memories got a huge facelift, you can now tag a memory to a person, associate a weblink to it, and also link a Tweet or Facebook post directly.
 
-<img src="/public/posts/2017-11-07/memory_user.png" class="img" alt="UnderstandBetter Memory tagged to a person" />
+<img src="/public/posts/2016-11-07/memory_user.png" class="img" alt="UnderstandBetter Memory tagged to a person" />
 
 There's also new emoji's to express your memory better! What do you think? Write to us if you think these emoji's just can not emote your wide range of emotions. (I'm asking for the 💩 emoji, but no one seems to take me seriously, I wonder why?)
 
-<img src="/public/posts/2017-11-07/memory_form.png" class="img" alt="UnderstandBetter Memory form with emojis" />
+<img src="/public/posts/2016-11-07/memory_form.png" class="img" alt="UnderstandBetter Memory form with emojis" />
 
 Okay, we'll admit it, we were way too restrictive with Townhalls when we first launched it! We didn't even allow users to edit or delete comments, a little paranoid in retrospect, but we really thought humans were just robots who never made mistakes. There was an intervention and found out that this is not the case, so here you go! Power to you.
 
 You can now edit comments in Townhalls, and everything refreshes in realtime! You can continue your conversation as you would. We also show a little "edited" flag if someone has been naughty.
 
-<img src="/public/posts/2017-11-07/townhall_comment.png" class="img" alt="UnderstandBetter improved Townhall Comments" />
+<img src="/public/posts/2016-11-07/townhall_comment.png" class="img" alt="UnderstandBetter improved Townhall Comments" />
 
 There's also new options to toggle child comments, view only things you want to without getting distracted.
 

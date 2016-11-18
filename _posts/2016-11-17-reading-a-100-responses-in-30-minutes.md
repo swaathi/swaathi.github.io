@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading a 100 responses in 30 minutes!
-date: 2017-11-17 16:30:00 +5:30 GMT
+date: 2016-11-17 16:30:00 +5:30 GMT
 share: y
 ---
 
@@ -13,7 +13,7 @@ But we never thought about the CEOs or the HRs who are going to spend a consider
 
 At Skcript, we have a company wide belief that technology's best use is increasing the productivity of humans. We knew it isn't efficient for a human to skim through a 100 longform responses and convert them into actionable goals. So that's when we called upon our little AI friend the UnderstandEngine.
 
-<img src="/public/posts/2017-11-17/understand_engine.jpeg" class="img" alt="UnderstandEngine Logo" />
+<img src="/public/posts/2016-11-17/understand_engine.jpeg" class="img" alt="UnderstandEngine Logo" />
 
 When an answer which is of considerable length hops by us, we parse just about everything we can about it.
 
@@ -23,13 +23,13 @@ This has been by far the most used feature by CEOs and HRs. Based on the context
 
 Here's how it looks like in action,
 
-<img src="/public/posts/2017-11-17/automatic_summary.jpeg" class="img" alt="Automatic Summary Generation with UnderstandEngine" />
+<img src="/public/posts/2016-11-17/automatic_summary.jpeg" class="img" alt="Automatic Summary Generation with UnderstandEngine" />
 
 ### Keyword Extraction
 
 Humans are lazy sometimes. In a few cases, we found that summaries might not be the best way to derive context. Keyword extraction saves the day in these places. An overview of the keywords used can be a quicker way to understand the overall emotion of the response.
 
-<img src="/public/posts/2017-11-17/keyword_extraction.jpg" class="img" alt="Keyword Extraction with UnderstandEngine" />
+<img src="/public/posts/2016-11-17/keyword_extraction.jpg" class="img" alt="Keyword Extraction with UnderstandEngine" />
 
 ### Polarity and Subjectivity Analysis
 
