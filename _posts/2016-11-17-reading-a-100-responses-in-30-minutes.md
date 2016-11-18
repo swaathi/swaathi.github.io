@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How you can read a 100 responses in 30 minutes
+title: Reading a 100 responses in 30 minutes!
 date: 2017-11-17 16:30:00 +5:30 GMT
 share: y
 ---
