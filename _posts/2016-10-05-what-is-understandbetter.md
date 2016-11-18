@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is UnderstandBetter?
-date: 2016-11-05 10:30:00 +5:30 GMT
+date: 2016-10-05 10:30:00 +5:30 GMT
 share: y
 ---
 
