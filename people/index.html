@@ -1,0 +1,25 @@
+---
+layout: default
+title: People On The Internet
+---
+
+<div class="posts">
+  {% for person in site.data.people %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ person.website }}" target="_blank">
+          {{ person.name }}
+        </a>
+      </h1>
+
+      <span class="post-date">{{ person.genre }}</span>
+      <p>
+        {{ person.description }}
+      </p>
+    </div>
+  {% endfor %}
+</div>
+
+<center>
+  <img src="/public/smile.png" class="img" alt="smile" />
+</center>
