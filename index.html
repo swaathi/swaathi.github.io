@@ -2,6 +2,25 @@
 layout: default
 title: Home
 ---
+{% for festival in site.data.festivals %}
+  {% if festival.show %}
+    <center>
+      <div class="post">
+        {% if festival.url %}
+          <a href="{{ festival.url }}">
+            <img src="{{ festival.image }}" class="img" alt="Swaathi Kakarla - {{ festival.greeting }}" />
+          </a>
+        {% else %}
+          <img src="{{ festival.image }}" class="img" alt="Swaathi Kakarla - {{ festival.greeting }}" />
+        {% endif %}
+        <p class="lead">
+          {{ festival.greeting }}
+        </p>
+      </div>
+    </center>
+  {% endif %}
+{% endfor %}
+
 <div class="posts">
   {% for post in paginator.posts %}
     <div class="post">
@@ -10,7 +29,7 @@ title: Home
           {{ post.title }}
         </a>
       </h1>
-      
+
       <span class="post-date">{{ post.date | date_to_string }}</span>
       {{ post.content | split:'<!--break-->' | first }}
       <a href="{{ post.url }}">Read All {{ post.content | size }} Characters → </a>
