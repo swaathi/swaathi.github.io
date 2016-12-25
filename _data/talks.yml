@@ -1,3 +1,11 @@
+- name: "Practical Approach To AI"
+  path: "practical_approach_to_ai.pdf"
+  link: "https://docs.google.com/presentation/d/1GqqwlGh8cH-Y6pAkHymCLIWXK-qf5Q7zJNwTXuJML8A/edit?usp=sharing"
+  date: 2016-12-15 11:30:00 +5:30 GMT
+  description: "The common conception of AI is that it is magic, while the truth is far from that. I give an introduction to AI with hopes of demystifying it by showing examples and revealing the underlying code."
+  event:
+    name: "AI Training"
+    offline: true
 - name: "The Web Is For Everyone"
   path: "the-web-is-for-everyone.pdf"
   link: "https://docs.google.com/presentation/d/15cQez-ziRnJfBDifbguhOECaPlEGoGAjbEoE26BrFyI/edit?usp=sharing"

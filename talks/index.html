@@ -12,7 +12,14 @@ title: Talks
         </a>
       </h1>
 
-      <span class="post-date">{{ talk.date | date_to_string }} / <a href="{{ talk.event.link }}">{{ talk.event.name }}</a></span>
+      <span class="post-date">
+        {{ talk.date | date_to_string }} /
+        {% if talk.event.offline %}
+          <span>{{ talk.event.name }} (offline)</span>
+        {% else %}
+          <a href="{{ talk.event.link }}">{{ talk.event.name }}</a>
+        {% endif %}
+      </span>
       <p>
         {{ talk.description }}
       </p>
