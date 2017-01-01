@@ -4,4 +4,7 @@
   show: false
 - greeting: "Merry Christmas!"
   image: "/public/santa.gif"
+  show: false
+- greeting: "Happy 2017!"
+  image: "/public/2017.jpg"
   show: true
