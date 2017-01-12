@@ -2,8 +2,12 @@
   website: http://www.imkarthikk.com/
   genre: Startups & Design
   description: I am a 27 year young business owner, running Skcript. Bad design disturbs me. Good design makes me smile. But simple design, leaves me speechless.
+- name: Erik Bern
+  website: https://erikbern.com/
+  genre: Code
+  description: I live in NYC and since Feb 2015 I’m the Head of Engineering of Better — a company rethinking how mortgages are done. Before Better, I was at Spotify for nearly 6 years.
 - name: Prakhar Srivatsav
-  website: http://prakhar.me
+  website: http://prakhar.me/
   genre: Code
   description: Hi! I'm Prakhar Srivastav and i'm currently a graduate student in Columbia University's CS department and I'm interested in Distributed Systems and Functional Programming.
 - name: Matt Rajca
