@@ -7,4 +7,7 @@
   show: false
 - greeting: "Happy 2017!"
   image: "/public/2017.jpg"
+  show: false
+- greeting: "Happy Febuary!"
+  image: "/public/inspo_1.png"
   show: true
