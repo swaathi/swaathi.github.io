@@ -12,6 +12,16 @@
   skill: ⭐️⭐️
 - name: ReactJS
   skill: ⭐️⭐️⭐️
+- name: ReactNative
+  skill: ⭐️
+- name: Scikit-Learn
+  skill: ⭐️⭐️
+- name: NumPy
+  skill: ⭐️⭐️
+- name: PyBrain
+  skill: ⭐️⭐️⭐️
+- name: Tensorflow
+  skill: ⭐️
 - name: MySQL
   skill: ⭐️⭐️⭐️
 - name: PostgreSQL
@@ -39,4 +49,4 @@
 - name: Tableau
   skill: ⭐️
 - name: Firebase
-  skill: ⭐️
+  skill: ⭐️⭐️
