@@ -5,7 +5,7 @@ date: 2017-02-02 16:30:00 +5:30 GMT
 share: y
 ---
 
-The Jallikatu Protest was the largest peaceful protest to protect the culture of Tamil Nadu's legendary bull 'hugging' festival. Around five million people gathered at the Marina Beach to show their support in continuing the game despite discouragement by the government. There was hardly a Chennaite who didn't show up at the beach, me included.
+The Jallikatu Protest was the worlds largest peaceful protest to protect the culture of Tamil Nadu's legendary bull 'hugging' festival. Around five million people gathered at the Marina Beach to show their support in continuing the game despite discouragement by the government. There was hardly a Chennaite who didn't show up at the beach, me included.
 
 It was quite interesting to watch the protest seep into social media. And where there's social media, there's data. In abundance!
 
@@ -15,7 +15,7 @@ It was quite interesting to watch the protest seep into social media. And where 
 
 ### Gathering Data
 
-There were clearly two separate groups, those who were pro-jallikatu and those who were pro-peta. This provided the first divergent for my data. I collected 3000 tweets evenly distributed from Jan 11th to Jan 21st, 2017 that contained either one of two hashtags - #banpeta and #banjallikattu.
+There were clearly two separate groups, those who were pro-jallikatu and those who were pro-peta. This provided the first divergent for my data. I collected 3000 tweets evenly distributed from Jan 11th to Jan 21st, 2017 that contained either one of two hashtags - **#banpeta** and **#banjallikattu**.
 
 Unfortunately the Twitter API has a search limit. The API only allows an indexed access to the past 7 days of tweets. Thankfully there's always a work around, I found a really nice script that allows this, [Jefferson-Henrique/GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python).
 
@@ -26,7 +26,7 @@ Tweets are never the ideal data set. They're riddled with 'alternative' spelling
 We then removed punctuation, hashtags, mentions, URLs, smileys and 'alternative' spellings.
 
 ### Choosing Classifiers and Feature Extractors
-Naveen and I then split the data into 700 for training, 300 for testing and the rest for validation data. With the 700 tweets we trained a classifier that puts tweets with #banpeta in the 'positive' bucket and those with #banjallikattu in the 'negative' bucket. We considered three classifiers - Naive Bayes, Decision Tree and Support Vector Machine. And two feature extractors, Bigrams (fallback to Unigrams) and WF-MFS.
+[Naveen](https://twitter.com/@nav_devl) and I then split the data into 700 for training, 300 for testing and the rest for validation data. With the 700 tweets we trained a classifier that puts tweets with **#banpeta** in the 'positive' bucket and those with **#banjallikattu** in the 'negative' bucket. We considered three classifiers - Naive Bayes, Decision Tree and Support Vector Machine. And two feature extractors, Bigrams (fallback to Unigrams) and WF-MFS.
 
 ### WF-MFS (Word Frequency - Manual Feature Segregation)
 
