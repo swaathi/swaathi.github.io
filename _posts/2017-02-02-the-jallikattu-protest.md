@@ -9,6 +9,10 @@ The Jallikatu Protest was the largest peaceful protest to protect the culture of
 
 It was quite interesting to watch the protest seep into social media. And where there's social media, there's data. In abundance!
 
+<img src="/public/posts/2017-02-02/protest.jpg" class="img" alt="Combination of classifier and feature extractor accuracy" />
+
+<!--break-->
+
 ### Gathering Data
 
 There were clearly two separate groups, those who were pro-jallikatu and those who were pro-peta. This provided the first divergent for my data. I collected 3000 tweets evenly distributed from Jan 11th to Jan 21st, 2017 that contained either one of two hashtags - #banpeta and #banjallikattu.
@@ -25,11 +29,14 @@ We then removed punctuation, hashtags, mentions, URLs, smileys and 'alternative'
 Naveen and I then split the data into 700 for training, 300 for testing and the rest for validation data. With the 700 tweets we trained a classifier that puts tweets with #banpeta in the 'positive' bucket and those with #banjallikattu in the 'negative' bucket. We considered three classifiers - Naive Bayes, Decision Tree and Support Vector Machine. And two feature extractors, Bigrams (fallback to Unigrams) and WF-MFS.
 
 ### WF-MFS (Word Frequency - Manual Feature Segregation)
+
+<img src="/public/posts/2017-02-02/word_cloud.png" class="img" alt="Combination of classifier and feature extractor accuracy" />
+
 This is a feature extractor that we're still working on here at [Skcript](https://skcript.com). The simple logic being, create a TF-IDF vector and pick the top N frequent feature words (we chose N to be 200). Then choose the compliment words based on the classification. (Ignore the words that were common between the positive and negative tweets, consider a unique mix of the compliment and popular feature words). The second part requires manual reinforcement, though we were able to automate it to a certain degree.
 
 Here were the feature words we chose,
 
-```
+```python
 {
   'contains_animal' : bool(re.search('animal.|cruel*', sentence, re.IGNORECASE)),
   'contains_bull' : bool(re.search('save [a-zA-Z]* bull', sentence, re.IGNORECASE)),
