@@ -2,13 +2,17 @@
   website: http://www.imkarthikk.com/
   genre: Startups & Design
   description: I am a 27 year young business owner, running Skcript. Bad design disturbs me. Good design makes me smile. But simple design, leaves me speechless.
+- name: Sebastian Raschka
+  website: https://sebastianraschka.com/
+  genre: Machine Learning
+  description: Sebastian Raschka is the author of the bestselling book “Python Machine Learning.” As a Ph.D. candidate at Michigan State University, he is developing new computational methods in the field of computational biology.
 - name: Emmanuel Goossaert
   website: http://www.goossaert.com
   genre: Code
   description: I am a software engineer, with strong interests in distributed systems, storage systems, data structures and algorithms. I work at Booking.com in Amsterdam, Netherlands.
 - name: Erik Bernhardsson
   website: https://erikbern.com/
-  genre: Code
+  genre: Machine Learning
   description: I live in NYC and since Feb 2015 I’m the Head of Engineering of Better — a company rethinking how mortgages are done. Before Better, I was at Spotify for nearly 6 years.
 - name: Prakhar Srivatsav
   website: http://prakhar.me/
