@@ -74,6 +74,20 @@ Another interesting study was to see the sentiment of people pro-jallikatu and p
 ### One More Thing
 There was a lot of backlash that national media was hardly covering anything on the peaceful protests. We wondered if this sentiment was accurate or not. So we took the Twitter profiles of popular news networks, and saw the frequency of their coverage from Jan 11th to Jan 21st.
 
+Here's where we took the data from,
+
+- [BBCWorld](https://twitter.com/@BBCWorld)
+- [HtTweets](https://twitter.com/@htTweets)
+- [IBTimesIndia](https://twitter.com/@ibtimes_india)
+- [NDTV](https://twitter.com/@ndtv)
+- [OutlookIndia](https://twitter.com/@outlookindia)
+- [ZeeNews](https://twitter.com/@zeenews)
+- [Firstpost](https://twitter.com/@firstpost)
+- [HuffPostIndia](https://twitter.com/@HuffPostIndia)
+- [IndiaToday](https://twitter.com/@indiaToday)
+- [NewsInTamilnadu](https://twitter.com/@newsintamilnadu)
+- [TimesOfIndia](https://twitter.com/@timesofindia)
+
 What do you think about the coverage? ;)
 
 <img src="/public/posts/2017-02-02/news_networks/BBCWorld.png" class="img" alt="BBCWorld Coverage" />
