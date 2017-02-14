@@ -74,9 +74,15 @@ Another interesting study was to see the sentiment of people pro-jallikatu and p
 ### One More Thing
 There was a lot of backlash that national media was hardly covering anything on the peaceful protests. We wondered if this sentiment was accurate or not. So we took the Twitter profiles of popular news networks, and saw the frequency of their coverage from Jan 11th to Jan 21st.
 
-Here's where we took the data from,
+Here's where we sourced the data from,
+<br />
+**Tamil Nadu News Networks**
+- [NewsInTamilnadu](https://twitter.com/@newsintamilnadu)
 
+**World News Networks**
 - [BBCWorld](https://twitter.com/@BBCWorld)
+
+**India News Networks**
 - [HtTweets](https://twitter.com/@htTweets)
 - [IBTimesIndia](https://twitter.com/@ibtimes_india)
 - [NDTV](https://twitter.com/@ndtv)
@@ -85,19 +91,8 @@ Here's where we took the data from,
 - [Firstpost](https://twitter.com/@firstpost)
 - [HuffPostIndia](https://twitter.com/@HuffPostIndia)
 - [IndiaToday](https://twitter.com/@indiaToday)
-- [NewsInTamilnadu](https://twitter.com/@newsintamilnadu)
 - [TimesOfIndia](https://twitter.com/@timesofindia)
 
 What do you think about the coverage? ;)
 
-<img src="/public/posts/2017-02-02/news_networks/BBCWorld.png" class="img" alt="BBCWorld Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/HtTweets.png" class="img" alt="HtTweets Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/IBTimesIndia.png" class="img" alt="IBTimesIndia Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/NDTV.png" class="img" alt="NDTV Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/OutlookIndia.png" class="img" alt="OutlookIndia Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/ZeeNews.png" class="img" alt="ZeeNews Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/Firstpost.png" class="img" alt="Firstpost Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/HuffPostIndia.png" class="img" alt="HuffPostIndia Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/IndiaToday.png" class="img" alt="IndiaToday Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/NewsInTamilnadu.png" class="img" alt="NewsInTamilnadu Coverage" />
-<img src="/public/posts/2017-02-02/news_networks/TimesOfIndia.png" class="img" alt="TimesOfIndia Coverage" />
+<img src="/public/posts/2017-02-02/news_networks.png" class="img" alt="News Networks Coverage" />
