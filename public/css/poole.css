@@ -234,6 +234,12 @@ img {
   border-radius: 5px;
 }
 
+.img350 {
+  display: inline-block;
+  width:350px;
+  vertical-align:middle;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
