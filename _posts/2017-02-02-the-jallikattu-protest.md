@@ -76,13 +76,13 @@ There was a lot of backlash that national media was hardly covering anything on 
 
 Here's where we sourced the data from,
 
-###### Tamil Nadu News Networks
+###### Tamil Nadu Channels
 - [NewsInTamilnadu](https://twitter.com/@newsintamilnadu)
 
-###### World News Networks
+###### World Channels
 - [BBCWorld](https://twitter.com/@BBCWorld)
 
-###### India News Networks
+###### India Channels
 - [HtTweets](https://twitter.com/@htTweets)
 - [IBTimesIndia](https://twitter.com/@ibtimes_india)
 - [NDTV](https://twitter.com/@ndtv)
