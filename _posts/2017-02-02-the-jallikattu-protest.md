@@ -68,8 +68,8 @@ The protest slowly picked up interest on social media and peaked on a 18th and 2
 
 Another interesting study was to see the sentiment of people pro-jallikatu and pro-peta. It was welcoming to see that people supporting Jallikatu were quite positive with their tweets. Quite the hallmark for the peaceful protest! :)
 
-<img src="/public/posts/2017-02-02/banPeta.png" class="img" alt="banPeta Hashtag Analysis" />
-<img src="/public/posts/2017-02-02/banJallikattu.png" class="img" alt="banJallikattu Hashtag Analysis" />
+!["banPeta Hashtag Analysis"]("/public/posts/2017-02-02/banPeta.png" "banPeta Hashtag Analysis")
+!["banJallikattu Hashtag Analysis"]("/public/posts/2017-02-02/banJallikattu.png" "banJallikattu Hashtag Analysis")
 
 ### One More Thing
 There was a lot of backlash that national media was hardly covering anything on the peaceful protests. We wondered if this sentiment was accurate or not. So we took the Twitter profiles of popular news networks, and saw the frequency of their coverage from Jan 11th to Jan 21st.
