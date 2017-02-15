@@ -82,7 +82,7 @@ Here's where we sourced the data from,
 ###### World Channels
 - [BBCWorld](https://twitter.com/@BBCWorld)
 
-###### India Channels
+###### Indian Channels
 - [HtTweets](https://twitter.com/@htTweets)
 - [IBTimesIndia](https://twitter.com/@ibtimes_india)
 - [NDTV](https://twitter.com/@ndtv)
