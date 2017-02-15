@@ -17,7 +17,7 @@ It was quite interesting to watch the protest seep into social media. And where 
 
 There were clearly two separate groups, those who were pro-jallikatu and those who were pro-peta. This provided the first divergent for my data. I collected 3000 tweets evenly distributed from Jan 11th to Jan 21st, 2017 that contained either one of two hashtags - **#banpeta** and **#banjallikattu**.
 
-Unfortunately the Twitter API has a search limit. The API only allows an indexed access to the past 7 days of tweets. Thankfully there's always a work around, I found a really nice script that allows this, [Jefferson-Henrique/GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python).
+Unfortunately the Twitter API has a search limit. The API only allows an indexed access to the past 7 days of tweets. Thankfully there's always a work around, I found a really nice script that allows this,  [Jefferson-Henrique/GetOldTweets-python](https://github.com/Jefferson-Henrique/GetOldTweets-python).
 
 ### Normalizing Data
 
