@@ -11,6 +11,8 @@ Diwali signifies the victory of light over darkness, good over evil. But persona
 
 Take this day to be grateful for the things you have and to be motivated for the things you want to pursue. May you find the light within and around you. Happy Diwali 🎉.
 
+<!--break-->
+
 ```
   Thousands of years ago, in the city of Ayodhya, there was a wise and good king named Dasaratha who ruled along with his three queens and four princes.
 
