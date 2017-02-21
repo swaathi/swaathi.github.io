@@ -13,7 +13,7 @@ Take this day to be grateful for the things you have and to be motivated for the
 
 <!--break-->
 
-```
+<blockquote>
   Thousands of years ago, in the city of Ayodhya, there was a wise and good king named Dasaratha who ruled along with his three queens and four princes.
 
   The eldest, Ram and his beautiful wife, Sita, lived happily along with Ram's brothers and their wives. But one of King Dasaratha’s wives was jealous of Ram and demanded that he be exiled to the forest for 14 years so that her son, Bharat, could be made king.
@@ -47,4 +47,4 @@ Take this day to be grateful for the things you have and to be motivated for the
   Soon after, upon completion of their 14 years in exile, Ram, Sita and Lakshman returned home to find the entire city waiting for them. The streets were decorated with flowers and lamps and there was happiness everywhere!
 
   And this is why every year on Diwali, you see the streets, homes and offices lit up with lamps, like the city of Ayodhya, in celebration of Ram and Sita’s homecoming.
-```
+</blockquote>
