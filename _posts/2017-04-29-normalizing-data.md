@@ -83,7 +83,7 @@ or equal to 0.
 L1 is basically minimizing the sum of the absolute differences (S) between the
 target value (x) and the estimated values (x').
 
-> <img src="/public/posts/2017-04-29/l1.png" class="img" alt="L1 Formula" />
+> <img src="/public/posts/2017-04-29/lad.png" class="img" alt="L1 Formula" />
 
 To understand it easily, its just adding all the values in the array and dividing
 each of it using the sum.
