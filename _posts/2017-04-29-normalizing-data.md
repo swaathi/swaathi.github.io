@@ -24,7 +24,7 @@ defined as,
 > Normalization is performed on data to compare numeric values obtained from
 different scales.
 
-Source: https://www.utdallas.edu/~herve/abdi-Normalizing2010-pretty.pdf
+Source: [https://www.utdallas.edu/~herve/abdi-Normalizing2010-pretty.pdf](https://www.utdallas.edu/~herve/abdi-Normalizing2010-pretty.pdf)
 
 ### Why do we normalize?
 
