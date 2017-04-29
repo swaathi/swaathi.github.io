@@ -12,6 +12,8 @@ all these variations, is there one compartmentalized approach to follow?
 
 Yes! (well, kind of and 'kind of' in ML is 'good enough')
 
+<!--break-->
+
 ## Normalization
 The boring definition of this mathematical approach would be,
 
@@ -60,10 +62,6 @@ I'm picking Python to show you how normalization affects data. We will be using
 the [numpy](http://www.numpy.org) and [scikit-learn](http://scikit-learn.org)
 packages to perform the operations. Normalization will be performed on [this
 dataset](https://github.com/skcript/normalization/blob/master/dataset.csv).
-
-The first step to clean up your data is work on a dataset that has ONLY the
-information you require. We'll be removing unnecessary columns such as
-[...TO BE FILLED...]
 
 #### 1. Min Max Normalization
 Min Max Normalization transforms a value A to B which fits in the range [C,D]. We
