@@ -69,7 +69,7 @@ information you require. We'll be removing unnecessary columns such as
 Min Max Normalization transforms a value A to B which fits in the range [C,D]. We
 can do this by applying the formula below,
 
-<img src="/public/posts/2017-04-29/min_max.png" class="img" alt="Min Max Formula" />
+> <img src="/public/posts/2017-04-29/min_max.png" class="img" alt="Min Max Formula" />
 
 This ensures that no matter what scale your data is in, it will be converted
 to fall between the range of 0 to 1.
