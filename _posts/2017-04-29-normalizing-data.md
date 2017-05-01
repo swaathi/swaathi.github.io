@@ -72,7 +72,7 @@ can do this by applying the formula below,
 This ensures that no matter what scale your data is in, it will be converted
 to fall between the range of 0 to 1.
 
-```
+```python
 import numpy as np
 from sklearn.preprocessing import minmax_scale
 
@@ -89,7 +89,7 @@ or equal to 0.
 
 > <img src="/public/posts/2017-04-29/max.png" class="img" alt="Max Formula" />
 
-```
+```python
 import numpy as np
 from sklearn.preprocessing import normalize
 
@@ -108,7 +108,7 @@ target value (x) and the estimated values (x').
 To understand it easily, its just adding all the values in the array and dividing
 each of it using the sum.
 
-```
+```python
 import numpy as np
 from sklearn.preprocessing import normalize
 
@@ -127,7 +127,7 @@ value (x) and the estimated values (x').
 Or in simpler terms, just divide each value by δ. Where δ is nothing but the
 square root of the sum of all the squared values.
 
-```
+```python
 import numpy as np
 from sklearn.preprocessing import normalize
 
