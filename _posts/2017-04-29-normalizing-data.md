@@ -4,7 +4,7 @@ title: Normalizing Data - Part 1 of AI Series
 date: 2017-04-29 16:30:00 +5:30 GMT
 share: y
 ---
-Co-authored by [Naveen](https://twitter.com/nav_devl) (AI Dev at [Skcript](https://skcript.com)),
+_Co-authored by [Naveen](https://twitter.com/nav_devl) (AI Dev at [Skcript](https://skcript.com))._
 
 In Machine Learning, more often than not applying an algorithm to data is not
 hard, rather representing the data usually is. But sometimes representing data a
