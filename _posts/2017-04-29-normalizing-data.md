@@ -72,7 +72,7 @@ can do this by applying the formula below,
 This ensures that no matter what scale your data is in, it will be converted
 to fall between the range of 0 to 1.
 
-<script src="http://gist-it.appspot.com/github/skcript/normalization/blob/master/01_minmax_normalization.ipynb">
+<script src="http://gist-it.appspot.com/github/skcript/normalization/blob/master/README.md">
 </script>
 
 ### 2. Max Normalization
