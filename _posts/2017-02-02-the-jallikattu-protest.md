@@ -26,7 +26,7 @@ Tweets are never the ideal data set. They're riddled with 'alternative' spelling
 We then removed punctuation, hashtags, mentions, URLs, smileys and 'alternative' spellings.
 
 ### Choosing Classifiers and Feature Extractors
-[Naveen](https://twitter.com/NaveenDurai19) and I then split the data into 700 for training, 300 for testing and the rest for validation data. With the 700 tweets we trained a classifier that puts tweets with **#banpeta** in the 'positive' bucket and those with **#banjallikattu** in the 'negative' bucket. We considered three classifiers - Naive Bayes, Decision Tree and Support Vector Machine. And two feature extractors, Bigrams (fallback to Unigrams) and WF-MFS.
+[Naveen](https://twitter.com/nav_devl) and I then split the data into 700 for training, 300 for testing and the rest for validation data. With the 700 tweets we trained a classifier that puts tweets with **#banpeta** in the 'positive' bucket and those with **#banjallikattu** in the 'negative' bucket. We considered three classifiers - Naive Bayes, Decision Tree and Support Vector Machine. And two feature extractors, Bigrams (fallback to Unigrams) and WF-MFS.
 
 ### WF-MFS (Word Frequency - Manual Feature Segregation)
 
