@@ -61,7 +61,7 @@ since it compares each data point to itself and not to any other data point.
 I'm picking Python to show you how normalization affects data. We will be using
 the [numpy](http://www.numpy.org) and [scikit-learn](http://scikit-learn.org)
 packages to perform the operations. Normalization will be performed on [this
-dataset](https://github.com/skcript/normalization/blob/master/dataset.csv).
+dataset](https://github.com/skcript/normalization/blob/master/datasets/dataset.csv).
 
 ### 1. Min Max Normalization
 Min Max Normalization transforms a value A to B which fits in the range [C,D]. We
@@ -72,8 +72,15 @@ can do this by applying the formula below,
 This ensures that no matter what scale your data is in, it will be converted
 to fall between the range of 0 to 1.
 
-<script src="http://gist-it.appspot.com/github/skcript/normalization/blob/master/README.md">
-</script>
+```
+import numpy as np
+from sklearn.preprocessing import minmax_scale
+
+minmax_scale(np.array([1,2,3,4,5]))
+=> array([ 0.  ,  0.25,  0.5 ,  0.75,  1.  ])
+```
+
+To see Min Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/01_minmax_normalization.ipynb).
 
 ### 2. Max Normalization
 Max is quite similar to Min Max normalization. The only difference being is that
@@ -81,6 +88,16 @@ the the normalized values will fall between a range of 1 and to a value less tha
 or equal to 0.
 
 > <img src="/public/posts/2017-04-29/max.png" class="img" alt="Max Formula" />
+
+```
+import numpy as np
+from sklearn.preprocessing import normalize
+
+normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="max")
+=> array([[ 0.2,  0.4,  0.6,  0.8,  1. ]])
+```
+
+To see Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/02_max_normalization.ipynb).
 
 ### 3. L1 Normalization (Least Absolute Deviation or LAD)
 L1 is basically minimizing the sum of the absolute differences (S) between the
@@ -91,6 +108,16 @@ target value (x) and the estimated values (x').
 To understand it easily, its just adding all the values in the array and dividing
 each of it using the sum.
 
+```
+import numpy as np
+from sklearn.preprocessing import normalize
+
+normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="l1")
+=> array([[ 0.06666667,  0.13333333,  0.2       ,  0.26666667,  0.33333333]])
+```
+
+To see L1 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/03_l1_normalization.ipynb).
+
 ### 4. L2 Normalization (Least Square Error or LSE)
 L2 minimizes the sum of the square of the differences (S) between the target
 value (x) and the estimated values (x').
@@ -99,6 +126,16 @@ value (x) and the estimated values (x').
 
 Or in simpler terms, just divide each value by δ. Where δ is nothing but the
 square root of the sum of all the squared values.
+
+```
+import numpy as np
+from sklearn.preprocessing import normalize
+
+normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="l2")
+=> array([[ 0.13483997,  0.26967994,  0.40451992,  0.53935989,  0.67419986]])
+```
+
+To see L2 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/04_l2_normalization.ipynb).
 
 ### 5. Z-Score
 Simply put, a z-score is the number of standard deviations from the mean a data
@@ -124,3 +161,5 @@ but if you want to compare it to the “average” person’s weight, looking at
 table of data can be overwhelming (especially if some weights are recorded in
 kilograms). A z-score can tell you where that person’s weight is compared to the
 average population’s mean weight.
+
+For a complete implementation of Z-Score please have a look at this [repo](https://github.com/skcript/normalization/blob/master/05_zscore_normalization.ipynb).
