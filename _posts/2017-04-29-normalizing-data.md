@@ -72,6 +72,9 @@ can do this by applying the formula below,
 This ensures that no matter what scale your data is in, it will be converted
 to fall between the range of 0 to 1.
 
+<script src="http://gist-it.appspot.com/github/skcript/normalization/blob/master/01_minmax_normalization.ipynb">
+</script>
+
 ### 2. Max Normalization
 Max is quite similar to Min Max normalization. The only difference being is that
 the the normalized values will fall between a range of 1 and to a value less than
@@ -83,7 +86,7 @@ or equal to 0.
 L1 is basically minimizing the sum of the absolute differences (S) between the
 target value (x) and the estimated values (x').
 
-> <img src="/public/posts/2017-04-29/lad.png" class="img" alt="L1 Formula" />
+> <img src="/public/posts/2017-04-29/ladg.png" class="img" alt="L1 Formula" />
 
 To understand it easily, its just adding all the values in the array and dividing
 each of it using the sum.
