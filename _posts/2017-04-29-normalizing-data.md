@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Normalizing Data
+title: Normalizing Data - Part 1 of AI Series
 date: 2017-04-29 16:30:00 +5:30 GMT
 share: y
 ---
