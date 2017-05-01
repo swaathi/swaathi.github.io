@@ -80,7 +80,7 @@ minmax_scale(np.array([1,2,3,4,5]))
 => array([ 0.  ,  0.25,  0.5 ,  0.75,  1.  ])
 ```
 
-To see Min Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/01_minmax_normalization.ipynb).
+_To see Min Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/01_minmax_normalization.ipynb)._
 
 ### 2. Max Normalization
 Max is quite similar to Min Max normalization. The only difference being is that
@@ -97,7 +97,7 @@ normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="max")
 => array([[ 0.2,  0.4,  0.6,  0.8,  1. ]])
 ```
 
-To see Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/02_max_normalization.ipynb).
+_To see Max used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/02_max_normalization.ipynb)._
 
 ### 3. L1 Normalization (Least Absolute Deviation or LAD)
 L1 is basically minimizing the sum of the absolute differences (S) between the
@@ -116,7 +116,7 @@ normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="l1")
 => array([[ 0.06666667,  0.13333333,  0.2       ,  0.26666667,  0.33333333]])
 ```
 
-To see L1 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/03_l1_normalization.ipynb).
+_To see L1 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/03_l1_normalization.ipynb)._
 
 ### 4. L2 Normalization (Least Square Error or LSE)
 L2 minimizes the sum of the square of the differences (S) between the target
@@ -135,7 +135,7 @@ normalize(np.array([1,2,3,4,5]).reshape(1, -1), norm="l2")
 => array([[ 0.13483997,  0.26967994,  0.40451992,  0.53935989,  0.67419986]])
 ```
 
-To see L2 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/04_l2_normalization.ipynb).
+_To see L2 used on a real dataset, check this [repo](https://github.com/skcript/normalization/blob/master/04_l2_normalization.ipynb)._
 
 ### 5. Z-Score
 Simply put, a z-score is the number of standard deviations from the mean a data
@@ -162,4 +162,4 @@ table of data can be overwhelming (especially if some weights are recorded in
 kilograms). A z-score can tell you where that person’s weight is compared to the
 average population’s mean weight.
 
-For a complete implementation of Z-Score please have a look at this [repo](https://github.com/skcript/normalization/blob/master/05_zscore_normalization.ipynb).
+_For a complete implementation of Z-Score please have a look at this [repo](https://github.com/skcript/normalization/blob/master/05_zscore_normalization.ipynb)._
