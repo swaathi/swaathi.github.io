@@ -4,6 +4,18 @@
   language: "Ruby on Rails"
   gist: "<script src='https://gist.github.com/swaathi/e79fa4eeed56e572da4e6bc8515c8eda.js'></script>"
 
+- name: "Tensorflow Resources"
+  link: "https://github.com/skcript/tensorflow-resources"
+  description: "Curated Tensorflow code resources to help you get started with Deep Learning. "
+  language: "Python (Tensorflow)"
+  gist: "<script src="https://gist.github.com/swaathi/4b5e260cac05619c6860cd1fe6686e2c.js"></script>"
+
+- name: "Watchman"
+  link: "https://github.com/skcript/watchman"
+  description: "Ping file system events to any API."
+  language: "Python"
+  gist: "<script src='https://gist.github.com/swaathi/cd739a70792f53e4bba143732f872546.js'></script>"
+
 - name: "Redmon"
   link: "https://github.com/swaathi/redmon"
   description: "Quick and easy tool to monitor your Redis keys."
@@ -15,12 +27,6 @@
   description: "Play Alchemy right from your terminal!"
   language: "Ruby"
   gist: "<script src='https://gist.github.com/swaathi/56da74c79c821bf0233927180619b23b.js'></script>"
-
-- name: "Watchman"
-  link: "https://github.com/skcript/watchman"
-  description: "Ping file system events to any API."
-  language: "Python"
-  gist: "<script src='https://gist.github.com/swaathi/cd739a70792f53e4bba143732f872546.js'></script>"
 
 - name: "Synclady"
   link: "https://github.com/skcript/synclady"
