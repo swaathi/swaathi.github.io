@@ -7,6 +7,8 @@ share: y
 
 It’s been a great week for the AI team at Skcript. Over the past week, we were trending top 5 in Github (Python category), for 3 days. We were liked and shared on social media endless number of times. And the best part — received great feedback from the AI/ML community.
 
+<!--break-->
+
 At Skcript, we have always given back to the community. It’s something that our team does voluntarily, they love sharing and writing about the new ventures in technology.
 
 We created the tensorflow-resources repo on Github to aid future AI developers. Here it is, [https://github.com/skcript/tensorflow-resources](https://github.com/skcript/tensorflow-resources).
