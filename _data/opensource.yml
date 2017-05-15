@@ -8,7 +8,7 @@
   link: "https://github.com/skcript/tensorflow-resources"
   description: "Curated Tensorflow code resources to help you get started with Deep Learning."
   language: "Python (Tensorflow)"
-  gist: "<script src="https://gist.github.com/swaathi/4b5e260cac05619c6860cd1fe6686e2c.js"></script>"
+  gist: "<script src='https://gist.github.com/swaathi/4b5e260cac05619c6860cd1fe6686e2c.js'></script>"
 
 - name: "Watchman"
   link: "https://github.com/skcript/watchman"
