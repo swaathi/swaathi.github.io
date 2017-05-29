@@ -11,3 +11,6 @@
 - greeting: "Happy Febuary!"
   image: "/public/inspo_1.png"
   show: false
+- greeting: "I'm getting married!"
+  image: "/public/sandk.jpeg"
+  show: true
