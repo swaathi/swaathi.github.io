@@ -13,4 +13,4 @@
   show: false
 - greeting: "I'm getting married!"
   image: "/public/sandk.jpeg"
-  show: true
+  show: false
