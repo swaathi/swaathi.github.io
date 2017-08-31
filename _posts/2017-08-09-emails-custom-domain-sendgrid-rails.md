@@ -10,6 +10,8 @@ SendGrid is a cloud-based email delivery service that assists businesses with em
 
 With SendGrid you don't just get to send emails, you get to monitor link clicks, un-subscription rates, geographical tracking and a lot more. In this tutorial I'll walk you through building your own email sending service on Rails with SendGrid.
 
+<!--break-->
+
 The first thought that probably pops up into your mind is why SendGrid? Believe me, you'll figure out for yourself by the end of this tutorial.
 
 Let's first create a Rails project via command line. I'll be using Rails 5 here.
