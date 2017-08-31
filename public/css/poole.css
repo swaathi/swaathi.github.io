@@ -349,6 +349,10 @@ tbody tr:nth-child(odd) th {
 .post-title a {
   color: #303030;
 }
+.post-title a p {
+  display: flex;
+  flex-direction: row;
+}
 .page-title,
 .post-title {
   margin-top: 0;
