@@ -1,3 +1,11 @@
+- name: "4 Year Lessons"
+  path: "lessons.pdf"
+  link: ""
+  date: 2017-07-29 03:00:00 +5:30 GMT
+  description: "A look back at 6 lessons I learned with 4 years of running Skcript."
+  event:
+    name: "Headstart WE - In Her Shoes"
+    offline: true
 - name: "Machine Learning Via Neural Networks"
   path: "machine-learning-via-neural-networks.pdf"
   link: "https://docs.google.com/a/karthikk.net/presentation/d/1l9y-gelNMHu1LaFnId6Nn3fQNqC_qqz_ZSnOvzqvc-I/edit?usp=sharing"
