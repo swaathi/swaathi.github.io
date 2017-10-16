@@ -9,7 +9,7 @@ The Jallikatu Protest was the worlds largest peaceful protest to protect the cul
 
 It was quite interesting to watch the protest seep into social media. And where there's social media, there's data. In abundance!
 
-<img src="/public/posts/2017-02-02/protest.jpg" class="img" alt="Combination of classifier and feature extractor accuracy" />
+<img src="public/posts/2017-02-02/protest.jpg" class="img" alt="Combination of classifier and feature extractor accuracy" />
 
 <!--break-->
 

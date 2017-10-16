@@ -17,6 +17,6 @@ through everything. So don't every feel like you can't do something – seriousl
 
 [Read on](https://www.techinasia.com/indias-pied-piper-skcript-short-cash-founders-ran-startup-car-profile), hope you like it!
 
-<a href="https://www.techinasia.com/indias-pied-piper-skcript-short-cash-founders-ran-startup-car-profile" target="_blank">
+<a href="https://www.techinasia.com/indias-pied-piper-skcript-short-cash-founders-ran-startup-car-profile" target="_blank" rel="noopener">
 ![TechInAsia](https://s25.postimg.org/k8wwm3ivj/tia1.png){:class="img-responsive"}
 </a>
