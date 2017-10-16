@@ -119,7 +119,7 @@ Headover to the signup page of [SendGrid](https://sendgrid.com/signup), and to t
 2. Head over to the Whilelabels section
 After that visit the Settings section in the sidebar and then click on the [Whitelables link](https://app.sendgrid.com/settings/whitelabel) from the dropdown.
 
-<a href="https://sweetcode.io/emails-custom-domain-sendgrid-rails/" target="_blank">
+<a href="https://sweetcode.io/emails-custom-domain-sendgrid-rails/" target="_blank" rel="noopener">
   <img src="/public/sweetcode.png" class="img" alt="https://sweetcode.io/emails-custom-domain-sendgrid-rails/" />
 </a>
 

@@ -14,19 +14,18 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}/public/black.png" />
-
-  <script>
-    var host = "swaathi.com";
-    if (window.location.host == host && window.location.protocol != "https:") {
-      window.location.protocol = "https:"
-    }
-  </script>
-
+s
   <body>
     {% include sidebar.html %}
     <div class="content container">
       {{ content }}
     </div>
-    <script type="text/javascript">"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("public/sw.js").then(function(n){},function(n){console.log("f",n)})});</script>
+    <script type="text/javascript">"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/public/sw.js").then(function(n){},function(n){console.log("f",n)})});</script>
+    <script>
+      var host = "swaathi.com";
+      if (window.location.host == host && window.location.protocol != "https:") {
+        window.location.protocol = "https:"
+      }
+    </script>
   </body>
 </html>

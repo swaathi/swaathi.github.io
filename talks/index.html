@@ -7,7 +7,7 @@ title: Talks
   {% for talk in site.data.talks %}
     <div class="post">
       <h1 class="post-title">
-        <a href="/talks/{{ talk.path }}" target="_blank">
+        <a href="/talks/{{ talk.path }}" target="_blank" rel="noopener">
           {{ talk.name }}
         </a>
       </h1>
@@ -26,7 +26,7 @@ title: Talks
       <div class="pagination">
         <a class="pagination-item older" href="/talks/{{ talk.path }}">Download</a>
         {% if talk.link != "" %}
-          <a class="pagination-item newer" href="{{ talk.link }}" target="_blank">View</a>
+          <a class="pagination-item newer" href="{{ talk.link }}" target="_blank" rel="noopener">View</a>
         {% else %}
           <span class="pagination-item newer">View</span>
         {% endif %}
