@@ -27,5 +27,6 @@
     <div class="content container">
       {{ content }}
     </div>
+    <script type="text/javascript">"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("public/sw.js").then(function(n){},function(n){console.log("f",n)})});</script>
   </body>
 </html>
