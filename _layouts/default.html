@@ -20,7 +20,7 @@
     <div class="content container">
       {{ content }}
     </div>
-    <script type="text/javascript">"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/public/sw.js").then(function(n){},function(n){console.log("f",n)})});</script>
+    <script type="text/javascript">"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").then(function(n){},function(n){console.log("f",n)})});</script>
     <script>
       var host = "swaathi.com";
       if (window.location.host == host && window.location.protocol != "https:") {
