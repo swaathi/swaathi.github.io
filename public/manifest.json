@@ -2,27 +2,27 @@
   "name": "Swaathi Kakarla | Usually about code, but not always",
   "short_name": "Swaathi",
   "icons": [{
-        "src": "/public/icons/favicon-128x128.png",
+        "src": "icons/favicon-128x128.png",
         "type": "image/png",
         "sizes": "128x128"
       }, {
-        "src": "/public/icons/favicon-144x144.png",
+        "src": "icons/favicon-144x144.png",
         "type": "image/png",
         "sizes": "144x144"
       }, {
-        "src": "/public/icons/favicon-152x152.png",
+        "src": "icons/favicon-152x152.png",
         "type": "image/png",
         "sizes": "152x152"
       }, {
-        "src": "/public/icons/favicon-192x192.png", 
+        "src": "icons/favicon-192x192.png", 
         "type": "image/png",
         "sizes": "192x192"
       }, {
-        "src": "/public/icons/favicon-256x256.png",
+        "src": "icons/favicon-256x256.png",
         "type": "image/png",
         "sizes": "256x256"
       }, {
-        "src": "/public/icons/favicon-512x512.png",
+        "src": "icons/favicon-512x512.png",
         "type": "image/png",
         "sizes": "512x512"
       }],
