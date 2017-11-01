@@ -1,6 +1,9 @@
 - greeting: "Happy Diwali!"
   image: "/public/diwali-small.jpg"
   url: "/diwali"
+  show: false
+- greeting: "Boo!"
+  image: "/public/halloween.png"
   show: true
 - greeting: "Merry Christmas!"
   image: "/public/santa.gif"
