@@ -4,7 +4,7 @@
   show: false
 - greeting: "Boo!"
   image: "/public/halloween.png"
-  show: true
+  show: false
 - greeting: "Merry Christmas!"
   image: "/public/santa.gif"
   show: false
@@ -17,3 +17,6 @@
 - greeting: "I'm getting married!"
   image: "/public/sandk.jpeg"
   show: false
+- greeting: "Salam Alaikum!"
+  image: "/public/dubai.png"
+  show: true
