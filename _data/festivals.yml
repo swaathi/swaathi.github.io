@@ -19,4 +19,4 @@
   show: false
 - greeting: "Salam Alaikum!"
   image: "/public/dubai.png"
-  show: true
+  show: false
