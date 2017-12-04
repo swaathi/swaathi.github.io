@@ -22,4 +22,5 @@
   show: false
 - greeting: "Hi December!"
   image: "/public/skcript_december.gif"
+  url: "https://skcript.com"
   show: true
