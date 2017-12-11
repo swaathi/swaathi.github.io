@@ -17,6 +17,8 @@ This block just looks so clean and to the point. Almost like magic!
 
 But magic is just a bit of zeros and ones. How'd they do it?
 
+<!--break-->
+
 The answer lies in Ruby's singleton classes. Singleton is a design pattern that allows only one one instance of the class to be globally available. It provides a single point of access to some service in your application so that you don't have to pass around a reference to that service every time you need to use it. It is useful when you find yourself writing only class methods or when you don't need an object of the class to function.
 
 However fair warning, singleton is also a [really hated programming pattern](https://blogs.msdn.microsoft.com/scottdensmore/2004/05/25/why-singletons-are-evil). A singleton is basically a global object - and everyone knows the more globals you have, the more problems you have!
