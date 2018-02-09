@@ -7,6 +7,8 @@ share: y
 
 A while ago I had an interesting problem to solve. Three of my modules reused the same functionality, they all had to parse address fields from a given lat and long.
 
+<!--break-->
+
 The following are the list of attributes each module needed to accommodate this,
 
 ```
