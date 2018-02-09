@@ -23,4 +23,8 @@
 - greeting: "Hi December!"
   image: "/public/skcript_december.gif"
   url: "https://skcript.com"
+  show: false
+- greeting: "Get Steve."
+  image: "/public/steve.png"
+  url: "https://skcript.com/steve"
   show: true
