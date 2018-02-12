@@ -23,6 +23,11 @@ title: Talks
       <p>
         {{ talk.description }}
       </p>
+      {% if talk.image %}
+        <center>
+          <img style="height:200px;" src="/talks/{{ talk.image }}">
+        </center>
+      {% endif %}
       <div class="pagination">
         <a class="pagination-item older" href="/talks/{{ talk.path }}">Download</a>
         {% if talk.link != "" %}
