@@ -1,5 +1,6 @@
 - name: "Startup Mentoring"
-  path: 'startup_weekend.jpeg'
+  path: "startup_weekend.jpeg"
+  link: ""
   date: 2018-02-11 10:00:00 +5:30 GMT
   description: "Mentored the teams at the 54 hour hackathon. Gave advice on the tech stack and the business model for young entrepreuners."
   event:
@@ -7,6 +8,7 @@
     link: 'http://communities.techstars.com/india/chennai-tamil-nadu-india/startup-weekend/11183'
 - name: "Teaching AI to Kids"
   path: 'gta_vidya_mandir.jpeg'
+  link: ""
   image: 'gta_vidya_mandir.jpeg'
   date: 2018-01-10 09:00:00 +5:30 GMT
   description: "An introduction to AI and it's many branches and thought processes. The talk included a lot of online demos so that kids could see an implementation of AI in the real world."
