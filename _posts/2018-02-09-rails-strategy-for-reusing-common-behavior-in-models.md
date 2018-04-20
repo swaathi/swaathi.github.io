@@ -125,19 +125,22 @@ ActiveRecord::Base.extend AddressExtractor
 There's three things to watch out here,
 
 1. **The `REQUIRED_ATTRIBUTES` constant**
+
 This is a simple array of all attributes that your Gem requires to function.
 
 2. **The `address_extractor` function**
+
 This function 'extends' a class called ClassMethods and 'includes' a class called InstanceMethods. This allows you to write all the methods that your model class needs inside ClassMethods and all the methods that your model object needs inside InstanceMethods.
 The `has_all_required_attributes?` simply checks if all the attributes are present in your model. Nifty right?
 
 3. **Extending ActiveRecord**
+
 In order for AddressExtractor to easily bind with your models, extend it to ActiveRecord itself.
 
 **Pro Tip:**
-If you don't want to create a Gem nor use Concerns, you can include the above module in your lib directory. Then create an initializer that requires AddressExtractor (`require 'address_extractor'`).
+If you don't want to create a Gem or use Concerns, you can include the above module in your lib directory. Then create an initializer that requires AddressExtractor (`require 'address_extractor'`).
 
-Finally, all you have to do is add `address_extractor` to any of your model.
+Finally, all you have to do is add `address_extractor` to any of your models.
 
 ```
 class Map < ApplicationRecord
