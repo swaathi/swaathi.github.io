@@ -1,3 +1,11 @@
+- name: "Concurrency In The Erlang VM"
+  path: "concurrency_in_the_erlang_vm.jpeg"
+  link: "https://docs.google.com/presentation/d/1M-qb15FXKpidH7LG5X5YB2xXLlvdJhTXp7BqfYQl7W4/edit?usp=sharing"
+  date: 2020-06-18 10:00:00 +5:30 GMT
+  description: "How Erlang achieves efficient concurrency with the BEAM VM."
+  event:
+    name: "Nerd Chat | Skcript"
+    link: 'https://skcript.com'
 - name: "Startup Mentoring"
   path: "startup_weekend.jpeg"
   link: ""
