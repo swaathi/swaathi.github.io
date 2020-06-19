@@ -50,11 +50,6 @@ title: Home
   <center>
     <img src="/public/smile.png" class="img" alt="smile" />
   </center>
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
       <a class="pagination-item newer" href="/">Newer</a>
@@ -63,5 +58,10 @@ title: Home
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
   {% endif %}
 </div>
