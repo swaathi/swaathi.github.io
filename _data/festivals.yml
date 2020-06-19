@@ -27,4 +27,4 @@
 - greeting: "Get Steve."
   image: "/public/steve.png"
   url: "https://skcript.com/steve"
-  show: true
+  show: false
