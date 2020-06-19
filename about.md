@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm a 27 year old business owner, I've been running [Skcript]({{ site.skcript.main }}) for about {{ site.time | date: '%Y' | minus:2013 }} years now. I work with 17 other [amazing people]({{ site.skcript.people }}) everyday to build awesome things for the enterprize.
+I'm a 27 year old business owner, I've been running [Skcript]({{ site.skcript.main }}) for about {{ site.time | date: '%Y' | minus:2013 }} years now. I work with 17 other [amazing people]({{ site.skcript.people }}) everyday to build awesome things for enterprises.
 
 I fell in love with code when I was 15 years old, and it still hasn't changed. Currently Ruby and Elixir are my addictions. I dabble a bit in infrastructure, a lot in language constructs, and in everything that keeps me curious. Also love to speak about code, tech and startups. There are a few people I admire on the internet, you should [check them out](/people)!
 
