@@ -59,27 +59,27 @@ In the previous section we deduced that concurrency is the best way forward to a
 
 **1. Shared Memory Model**
 
-    This is a commonly used model in popular programming languages like Java and C#. It involves different processes accessing the same block of memory to store and communicate with each other. It allows for context switching to be less heavier. 
+This is a commonly used model in popular programming languages like Java and C#. It involves different processes accessing the same block of memory to store and communicate with each other. It allows for context switching to be less heavier. 
 
-    Though this sounds great in theory, it causes some unfriendly situations when two or more processes try to access the same shared memory block. It leads to situations like deadlocks. In order to overcome this, we have mutexes,locks and synchronization. However this makes the system more complex and difficult to scale. 
+Though this sounds great in theory, it causes some unfriendly situations when two or more processes try to access the same shared memory block. It leads to situations like deadlocks. In order to overcome this, we have mutexes,locks and synchronization. However this makes the system more complex and difficult to scale. 
 
-    <img src="/public/concurrency/image10.png" class="img" />
+<img src="/public/concurrency/image10.png" class="img" />
 
 **2. Actor Model**
 
-    This is the model used by Erlang and Rust to achieve concurrency. It depends on isolating processes as much as possible and reducing communication between them to message passing. Each process is known as an actor. 
+This is the model used by Erlang and Rust to achieve concurrency. It depends on isolating processes as much as possible and reducing communication between them to message passing. Each process is known as an actor. 
 
-    Actors communicate with each other by sending messages. Messages can be sent at any time and are non-blocking. These messages are then stored in the receiving actors mailbox. In order to read messages, actors have to perform a blocking read action.
+Actors communicate with each other by sending messages. Messages can be sent at any time and are non-blocking. These messages are then stored in the receiving actors mailbox. In order to read messages, actors have to perform a blocking read action.
 
-    <img src="/public/concurrency/image9.png" class="img" />
+<img src="/public/concurrency/image9.png" class="img" />
 
 **3. Communicating Sequential Processes**
 
-    This is a highly efficient concurrent model used by Go. It’s similar to the actor model in that it uses message passing. However unlike in the actor model where only receiving messages is blocking, CSP requires both actions to be blocking. 
+This is a highly efficient concurrent model used by Go. It’s similar to the actor model in that it uses message passing. However unlike in the actor model where only receiving messages is blocking, CSP requires both actions to be blocking. 
 
-    In CSP, a separate store called the channel is used to transfer incoming and outgoing messages. Processes don’t communicate with each other directly, but with the channel layer in between.
+In CSP, a separate store called the channel is used to transfer incoming and outgoing messages. Processes don’t communicate with each other directly, but with the channel layer in between.
 
-    <img src="/public/concurrency/image6.png" class="img" />
+<img src="/public/concurrency/image6.png" class="img" />
 
 ## Actor Model
 
@@ -150,19 +150,20 @@ There is a special Erlang process called the Supervisor. It’s goal is to figur
 
 **2. Fault Tolerance**
 
-  Joe Armstrong, (late) creator of Erlang, said the infamous line, “Let it crash”. He [designed](https://www.google.com/url?q=https://thenewstack.io/why-erlang-joe-armstrongs-legacy-of-fault-tolerant-computing/&sa=D&ust=1592766229560000) the fault tolerant language not with the goal of preventing errors from happening, but to build structures that handle error scenarios. 
+Joe Armstrong, (late) creator of Erlang, said the infamous line, “Let it crash”. He [designed](https://www.google.com/url?q=https://thenewstack.io/why-erlang-joe-armstrongs-legacy-of-fault-tolerant-computing/&sa=D&ust=1592766229560000) the fault tolerant language not with the goal of preventing errors from happening, but to build structures that handle error scenarios. 
 
-  <img src="/public/concurrency/image11.png" class="img" />
-  
-  The entire thread is heartwarming, [give it a read](https://www.google.com/url?q=https://news.ycombinator.com/item?id%3D19708379&sa=D&ust=1592766229561000)!  
+<img src="/public/concurrency/image11.png" class="img" />
+
+The entire thread is heartwarming, [give it a read](https://www.google.com/url?q=https://news.ycombinator.com/item?id%3D19708379&sa=D&ust=1592766229561000)!  
     
 **3. Distribution**
 
-    Finally Erlang makes it extremely easy to build distributed systems. Each Erlang instance can act as a node in different devices and communicate just as easily as spawning processes. 
+Finally Erlang makes it extremely easy to build distributed systems. Each Erlang instance can act as a node in different devices and communicate just as easily as spawning processes. 
     
 **4. No GIL!**
 
-Unlike other interpreted languages, most famously Ruby and Python, Erlang does not have to worry about the Global Interpreter Lock. The GIL ensures that only one Ruby/Python thread runs per process on the CPU. This is a huge blow to concurrency. 
+Unlike other interpreted languages, most famously Ruby and Python, Erlang does not have to worry about the Global Interpreter Lock. The GIL ensures that only one Ruby/Python thread runs per process on the CPU. This is a huge blow to concurrency.
+ 
 App servers like Passenger try to overcome this by creating multiple OS processors and run it on multiple cores. However as we saw before, OS threads are expensive to manage.
 
 ## Conclusion
