@@ -124,7 +124,7 @@ Well after so many topics, we’ve finally come to the actual Erlang VM - BEAM!
 <div class="tenor-gif-embed" data-postid="11313969" data-share-method="host" data-width="100%" data-aspect-ratio="1.537037037037037">
 </div>
 <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-</br>
+
 
 The [BEAM VM was built](https://blog.lelonek.me/elixir-on-erlang-vm-demystified-320557d09e1f) to be able to both compile Erlang/Elixir files into bytecode (.beam) files as well as to schedule Erlang processes on the CPU. This level of control gives a huge advantage to efficiently and concurrently run processes.
 
