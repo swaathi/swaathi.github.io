@@ -5,7 +5,7 @@ date: 2020-06-21 16:00:00 +5:30 GMT
 share: y
 ---
 
-[Erlang](https://www.google.com/url?q=https://codesync.global/media/how-erlang-got-its-name-concurrency-before-erlang/&sa=D&ust=1592766229543000) is often referred to as the “concurrency oriented programming language”.
+[Erlang](https://codesync.global/media/how-erlang-got-its-name-concurrency-before-erlang/=1592766229543000) is often referred to as the “concurrency oriented programming language”.
 
 How did it get this name? How can a language created in the 80s for the telecom industry help us now?
 
@@ -13,7 +13,7 @@ How did it get this name? How can a language created in the 80s for the telecom 
 
 Erlang or _Erlang/OTP_ (Open Telecom Platform) was built in 1986 at Ericsson to handle the growing telephone user base. It was designed with the aim of improving the development of telephony applications. It is great for building distributed, fault tolerant and highly available systems.
 
-So, what relevance does a technology built in the 80s have for us? It turns out that all the reasons for which Erlang was built for is extremely useful for web servers today. We need applications to be fast and reliable - and we want it now! Fortunately that’s possible with Phoenix, the web framework built on top of Elixir (a modern language built on top of Erlang). It has great features like hot code swapping and [real time views](https://www.google.com/url?q=https://github.com/phoenixframework/phoenix_live_view&sa=D&ust=1592766229544000) - without JS!
+So, what relevance does a technology built in the 80s have for us? It turns out that all the reasons for which Erlang was built for is extremely useful for web servers today. We need applications to be fast and reliable - and we want it now! Fortunately that’s possible with Phoenix, the web framework built on top of Elixir (a modern language built on top of Erlang). It has great features like hot code swapping and [real time views](https://github.com/phoenixframework/phoenix_live_view) - without JS!
 
 How is all that possible? It’s largely due to how the language was built to be concurrent from bottom up - thanks to BEAM, the Erlang VM.
 
@@ -35,7 +35,7 @@ You might think that since your modern day computer allows you to do more than o
 
 <img src="/public/concurrency/image3.jpg" class="img" />
 
-However this is far from the truth. We are quite far from true parallelism. There’s a whole [plethora of bugs](https://www.google.com/url?q=https://devblogs.microsoft.com/pfxteam/most-common-performance-issues-in-parallel-programs/&sa=D&ust=1592766229547000) that crop up when we try to go down this path.
+However this is far from the truth. We are quite far from true parallelism. There’s a whole [plethora of bugs](https://devblogs.microsoft.com/pfxteam/most-common-performance-issues-in-parallel-programs/=1592766229547000) that crop up when we try to go down this path.
 
 The next best thing is concurrency. Concurrent execution means breaking up processes into multiple tiny bits and switching between them while executing. This happens so fast that it gives the user the illusion of multiple processes being executed at the same time - while cleverly circumventing the problems of parallelism.
 
@@ -47,7 +47,7 @@ You can see that the CPU switches between process 1 and 2\. This is known as con
 
 _One last thing …_
 
-The speed of program execution is dependent on the CPU clock cycles. The faster the processor, the faster your computer is. Moore’s law states that the number of transistors on an affordable CPU would double every two years. However if you’ve noticed, processors haven’t been getting that much faster in the past few years. That’s because we’ve hit a physical [bump in the road](https://www.google.com/url?q=https://www.theverge.com/2018/7/19/17590242/intel-50th-anniversary-moores-law-history-chips-processors-future&sa=D&ust=1592766229549000). This happened when we realized going much higher than 4GHz is very difficult and futile. Speed of light actually became a constraint! This is when we decided to do multi-core processing instead. We scaled horizontally, instead of vertically. We added more cores, instead of making a single core powerful.
+The speed of program execution is dependent on the CPU clock cycles. The faster the processor, the faster your computer is. Moore’s law states that the number of transistors on an affordable CPU would double every two years. However if you’ve noticed, processors haven’t been getting that much faster in the past few years. That’s because we’ve hit a physical [bump in the road](https://www.theverge.com/2018/7/19/17590242/intel-50th-anniversary-moores-law-history-chips-processors-future). This happened when we realized going much higher than 4GHz is very difficult and futile. Speed of light actually became a constraint! This is when we decided to do multi-core processing instead. We scaled horizontally, instead of vertically. We added more cores, instead of making a single core powerful.
 
 <blockquote>
   Okay I know we’ve covered a lot of material here. But what’s relevant for you to remember is that context switching is heavy and that we’ve moved on to multi-core processing now. Let’s see what tricks Erlang has up its sleeve that makes it the concurrency oriented language.
@@ -99,7 +99,7 @@ The first two are pretty straightforward. Let’s look at it’s representation 
 
 You can see here that spawning a new process in Elixir - is exactly that. Unlike other languages which use a multithreaded approach to deal with concurrency, Elixir uses threads.
 
-The key thing to remember is that these are Erlang threads which are much more lightweight than their OS counterparts. On average, Erlang processes are [2000 times](https://www.google.com/url?q=http://blog.plataformatec.com.br/2018/04/elixir-processes-and-this-thing-called-otp/&sa=D&ust=1592766229553000) more lightweight than OS processes. There could be hundreds of thousands of Erlang processes in a system and all would be well.
+The key thing to remember is that these are Erlang threads which are much more lightweight than their OS counterparts. On average, Erlang processes are [2000 times](http://blog.plataformatec.com.br/2018/04/elixir-processes-and-this-thing-called-otp/=1592766229553000) more lightweight than OS processes. There could be hundreds of thousands of Erlang processes in a system and all would be well.
 
 Erlang threads also have a PID attached to them. Using this PID, you can extract information about the memory it occupies, functions it’s running and much more. Using the PID, you can also send messages to processes and communicate.
 
@@ -112,18 +112,20 @@ You can see here that each process also has its own internal state. Everytime we
 These three properties allow Erlang processes to be very lightweight. It eradicates the need for complex synchronization techniques and does not take up too much memory space for interprocess communication. All this contributes to high availability.
 
 <blockquote>
-  At this point of time, it’s a great idea to watch this [quick 4 minute video](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DELwEdb_pD0k&sa=D&ust=1592766229555000)of the actor model. After all, a picture is worth a thousand words, and a video even more!  
+  At this point of time, it’s a great idea to watch this <a href="https://www.youtube.com/watch?v%3DELwEdb_pD0k">quick 4 minute video of the actor model</a>. After all, a picture is worth a thousand words, and a video even more!  
 
-  If you’ve got the time and want something much more in detail, [have a look at this video](https://www.google.com/url?q=https://www.youtube.com/watch?time_continue%3D60%26v%3D7erJ1DV_Tlo%26feature%3Demb_logo&sa=D&ust=1592766229556000) where the creator of the Actor Model explains all that I’ve said in such an eloquent way.
+  If you’ve got the time and want something much more in detail, <a href="https://www.youtube.com/watch?v=7erJ1DV_Tlo">have a look at this video</a> where the creator of the Actor Model explains all that I’ve said in such an eloquent way.
 </blockquote>
 
 ## BEAM
 
 Well after so many topics, we’ve finally come to the actual Erlang VM - BEAM!
 
-<div class="tenor-gif-embed" data-postid="11313969" data-share-method="host" data-width="100%" data-aspect-ratio="1.537037037037037"><a href="https://tenor.com/view/beam-me-up-scotty-gif-11313969">Beam Me Up Scotty GIF</a> from <a href="https://tenor.com/search/beammeupscotty-gifs">Beammeupscotty GIFs</a></div><script type="text/javascript" async src="[https://tenor.com/embed.js](https://www.google.com/url?q=https://tenor.com/embed.js&sa=D&ust=1592766229557000)"></script>
+<div class="tenor-gif-embed" data-postid="11313969" data-share-method="host" data-width="100%" data-aspect-ratio="1.537037037037037">
+</div>
+<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
-The [BEAM VM was built](https://www.google.com/url?q=https://blog.lelonek.me/elixir-on-erlang-vm-demystified-320557d09e1f&sa=D&ust=1592766229557000) to be able to both compile Erlang/Elixir files into bytecode (.beam) files as well as to schedule Erlang processes on the CPU. This level of control gives a huge advantage to efficiently and concurrently run processes.
+The [BEAM VM was built](https://blog.lelonek.me/elixir-on-erlang-vm-demystified-320557d09e1f) to be able to both compile Erlang/Elixir files into bytecode (.beam) files as well as to schedule Erlang processes on the CPU. This level of control gives a huge advantage to efficiently and concurrently run processes.
 
 When the VM starts, it’s first step is to start the Scheduler. It is responsible for running each Erlang process concurrently on the CPU. Since the processes are all maintained and scheduled by BEAM, we have more control over what happens when a process fails (fault tolerance) and are able to more efficiently use memory and perform better context switching.
 
@@ -135,7 +137,7 @@ BEAM allows Erlang to spawn thousands of processes and achieve high levels of co
 
 <img src="/public/concurrency/image5.png" class="img" />
 
-Have a [read](https://www.google.com/url?q=https://news.ycombinator.com/item?id%3D10028227&sa=D&ust=1592766229559000)!
+Have a [read](https://news.ycombinator.com/item?id%3D10028227)!
 
 ## Contributing Characteristics
 
@@ -150,11 +152,11 @@ There is a special Erlang process called the Supervisor. It’s goal is to figur
 
 **2. Fault Tolerance**
 
-Joe Armstrong, (late) creator of Erlang, said the infamous line, “Let it crash”. He [designed](https://www.google.com/url?q=https://thenewstack.io/why-erlang-joe-armstrongs-legacy-of-fault-tolerant-computing/&sa=D&ust=1592766229560000) the fault tolerant language not with the goal of preventing errors from happening, but to build structures that handle error scenarios. 
+Joe Armstrong, (late) creator of Erlang, said the infamous line, “Let it crash”. He [designed](https://thenewstack.io/why-erlang-joe-armstrongs-legacy-of-fault-tolerant-computing/=1592766229560000) the fault tolerant language not with the goal of preventing errors from happening, but to build structures that handle error scenarios. 
 
 <img src="/public/concurrency/image11.png" class="img" />
 
-The entire thread is heartwarming, [give it a read](https://www.google.com/url?q=https://news.ycombinator.com/item?id%3D19708379&sa=D&ust=1592766229561000)!  
+The entire thread is heartwarming, [give it a read](https://news.ycombinator.com/item?id%3D19708379)!  
     
 **3. Distribution**
 
