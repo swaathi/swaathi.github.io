@@ -9,6 +9,8 @@ share: y
 
 How did it get this name? How can a language created in the 80s for the telecom industry help us now?
 
+<!--break-->
+
 Erlang or _Erlang/OTP_ (Open Telecom Platform) was built in 1986 at Ericsson to handle the growing telephone user base. It was designed with the aim of improving the development of telephony applications. It is great for building distributed, fault tolerant and highly available systems.
 
 So, what relevance does a technology built in the 80s have for us? It turns out that all the reasons for which Erlang was built for is extremely useful for web servers today. We need applications to be fast and reliable - and we want it now! Fortunately that’s possible with Phoenix, the web framework built on top of Elixir (a modern language built on top of Erlang). It has great features like hot code swapping and [real time views](https://www.google.com/url?q=https://github.com/phoenixframework/phoenix_live_view&sa=D&ust=1592766229544000) - without JS!
@@ -47,9 +49,9 @@ _One last thing …_
 
 The speed of program execution is dependent on the CPU clock cycles. The faster the processor, the faster your computer is. Moore’s law states that the number of transistors on an affordable CPU would double every two years. However if you’ve noticed, processors haven’t been getting that much faster in the past few years. That’s because we’ve hit a physical [bump in the road](https://www.google.com/url?q=https://www.theverge.com/2018/7/19/17590242/intel-50th-anniversary-moores-law-history-chips-processors-future&sa=D&ust=1592766229549000). This happened when we realized going much higher than 4GHz is very difficult and futile. Speed of light actually became a constraint! This is when we decided to do multi-core processing instead. We scaled horizontally, instead of vertically. We added more cores, instead of making a single core powerful.
 
-<img src="/public/concurrency/image7.png" class="img" />
-
-Okay I know we’ve covered a lot of material here. But what’s relevant for you to remember is that context switching is heavy and that we’ve moved on to multi-core processing now. Let’s see what tricks Erlang has up its sleeve that makes it the concurrency oriented language.
+<blockquote>
+  Okay I know we’ve covered a lot of material here. But what’s relevant for you to remember is that context switching is heavy and that we’ve moved on to multi-core processing now. Let’s see what tricks Erlang has up its sleeve that makes it the concurrency oriented language.
+</blockquote>
 
 ## Concurrency Models
 
@@ -109,11 +111,11 @@ You can see here that each process also has its own internal state. Everytime we
 
 These three properties allow Erlang processes to be very lightweight. It eradicates the need for complex synchronization techniques and does not take up too much memory space for interprocess communication. All this contributes to high availability.
 
-At this point of time, it’s a great idea to watch this [quick 4 minute video](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DELwEdb_pD0k&sa=D&ust=1592766229555000)of the actor model. After all, a picture is worth a thousand words, and a video even more!  
+<blockquote>
+  At this point of time, it’s a great idea to watch this [quick 4 minute video](https://www.google.com/url?q=https://www.youtube.com/watch?v%3DELwEdb_pD0k&sa=D&ust=1592766229555000)of the actor model. After all, a picture is worth a thousand words, and a video even more!  
 
-If you’ve got the time and want something much more in detail, [have a look at this video](https://www.google.com/url?q=https://www.youtube.com/watch?time_continue%3D60%26v%3D7erJ1DV_Tlo%26feature%3Demb_logo&sa=D&ust=1592766229556000) where the creator of the Actor Model explains all that I’ve said in such an eloquent way.
-
-<img src="/public/concurrency/image7.png" class="img" />
+  If you’ve got the time and want something much more in detail, [have a look at this video](https://www.google.com/url?q=https://www.youtube.com/watch?time_continue%3D60%26v%3D7erJ1DV_Tlo%26feature%3Demb_logo&sa=D&ust=1592766229556000) where the creator of the Actor Model explains all that I’ve said in such an eloquent way.
+</blockquote>
 
 ## BEAM
 
