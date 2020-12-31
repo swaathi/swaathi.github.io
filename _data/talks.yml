@@ -1,3 +1,19 @@
+- name: "Inspire Great Culture"
+  path: ""
+  link: "https://docs.google.com/presentation/d/1NEZcNNd50tPHeMVjjaKyzy1xsLY0S4fCLaw9UxvTpSY/edit?usp=sharing"
+  date: 2020-10-03 14:30:00 +5:30 GMT
+  description: "Building a company is more than sales or marketing. A company is its people, you need to inspire great culture to foster innovation and a sense of belonging."
+  event:
+    name: "PyCon India 2020"
+    link: 'https://twitter.com/pyconindia/status/1312303590900338689'
+- name: "Mentorship Class in AI"
+  path: ""
+  link: "https://docs.google.com/presentation/d/1nm-LOwtAiHfRsXnlCP4fRT7gSA11QA4biMct8tW40l4/edit?usp=sharing"
+  date: 2020-07-18 10:00:00 +5:30 GMT
+  description: "Conducted a 2-week AI bootcamp for high school girls in collaboration with Unherd, a non-profit organization."
+  event:
+    name: "GirlsInCode"
+    link: 'http://unherd.in/skcript/'
 - name: "Concurrency In The Erlang VM"
   path: "concurrency_in_the_erlang_vm.pdf"
   link: "https://docs.google.com/presentation/d/1M-qb15FXKpidH7LG5X5YB2xXLlvdJhTXp7BqfYQl7W4/edit?usp=sharing"
