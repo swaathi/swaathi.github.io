@@ -21,6 +21,8 @@ We can write something like this,
 User.where(role: :admin)
 ```
 
+<!--break-->
+
 This is much more readable and effectively abtracts us from writing any SQL.
 
 What's really happening under the hood is that Rails is using the Arel library to build SQL queries. Arel is a powerful SQL AST manager that lets us appropriately combine selection statements for simple to very complicated queries.
