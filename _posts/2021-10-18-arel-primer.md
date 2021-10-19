@@ -5,8 +5,6 @@ date: 2021-10-18 00:25:00 +5:30 GMT
 share: y
 ---
 
-## Arel Primer
-
 One of the easiest things about Rails, is writing out SQL quereies without writing out SQL queries.
 
 So instead of writing something like this,
